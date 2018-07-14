@@ -3,14 +3,18 @@
 	xmlns="http://www.springframework.org/schema/security"
 	xmlns:beans="http://www.springframework.org/schema/beans" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://code.alibabatech.com/schema/dubbo
+						http://code.alibabatech.com/schema/dubbo/dubbo.xsd
 						http://www.springframework.org/schema/security
 						http://www.springframework.org/schema/security/spring-security.xsd">
 	<!-- 以下页面不被拦截 -->
 	<http pattern="/register.html" security="none"></http>
+	<http pattern="/userIndex/registerUser" security="none"></http>
 	<http pattern="/shoplogin.html" security="none"></http>
-	<http pattern="/login_error.html" security="none"></http>
+	<http pattern="/shoplogin_error.html" security="none"></http>
 	<http pattern="/css/**" security="none"></http>
 	<http pattern="/img/**" security="none"></http>
 	<http pattern="/js/**" security="none"></http>
@@ -22,7 +26,7 @@
 		<form-login 
 		     login-page="/shoplogin.html"
 		     default-target-url="/admin/index.html"
-			 authentication-failure-url="/login_error.html" 
+			 authentication-failure-url="/shoplogin_error.html"
 			 always-use-default-target="true" />
 		<csrf disabled="true" />
 		
@@ -33,14 +37,22 @@
 
 		<logout logout-success-url="/login.html"/>
 	</http>
-	
+
+	<dubbo:application name="pinyougou-shop-web" />
+	<dubbo:registry address="zookeeper://192.168.25.129:2181"/>
+	<dubbo:reference id="tbSellerService" interface="com.pinyougou.sellergoods.service.TbSellerService"></dubbo:reference>
+
+	<beans:bean id="userDetailsService" class="com.pinyougou.shop.service.UserDetailsServiceImpl">
+		<beans:property name="tbSellerService" ref="tbSellerService" ></beans:property>
+	</beans:bean>
+
+	<!-- 加密 -->
+	<beans:bean id="bCryptPasswordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"></beans:bean>
+
 	<!-- 认证管理器 -->
 	<authentication-manager>
-		<authentication-provider>
-			<user-service>
-				<user name="admin" password="123456" authorities="ROLE_ADMIN" />
-				<user name="sunwukong" password="dasheng" authorities="ROLE_ADMIN" />
-			</user-service>
+		<authentication-provider user-service-ref="userDetailsService">
+			<password-encoder ref="bCryptPasswordEncoder"></password-encoder>
 		</authentication-provider>
 	</authentication-manager>
 </beans:beans>

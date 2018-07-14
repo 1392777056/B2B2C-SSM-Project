@@ -1,6 +1,7 @@
 package com.pinyougou.sellergoods.service;
 
 import com.pinyougou.pojo.TbSeller;
+import com.pinyougou.pojo.TbUser;
 import domaincommon.PageResult;
 
 import java.util.List;
@@ -61,4 +62,5 @@ public interface TbSellerService {
      */
     PageResult searchSeller(int pageNum, int pageSize, TbSeller tbSeller);
 
+    TbSeller findBySellerId(String username);
 }

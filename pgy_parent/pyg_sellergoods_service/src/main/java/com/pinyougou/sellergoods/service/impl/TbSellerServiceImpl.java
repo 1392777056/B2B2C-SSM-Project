@@ -110,5 +110,16 @@ public class TbSellerServiceImpl implements TbSellerService {
         return new PageResult(page.getTotal(),page.getResult());
     }
 
+    @Override
+    public TbSeller findBySellerId(String username) {
+        TbSellerExample tbSellerExample = new TbSellerExample();
+        tbSellerExample.createCriteria().andSellerIdEqualTo(username);
+        List<TbSeller> tbSellers = tbSellerMapper.selectByExample(tbSellerExample);
+        if (tbSellers != null && tbSellers.size() >0 ) {
+            return tbSellers.get(0);
+        }
+        return null;
+    }
+
 
 }
