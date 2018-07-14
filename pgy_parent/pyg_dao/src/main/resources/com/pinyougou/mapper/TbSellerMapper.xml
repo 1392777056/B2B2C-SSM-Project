@@ -511,7 +511,7 @@
     where seller_id = #{sellerId,jdbcType=VARCHAR}
   </update>
   
-  <update id="updateSellerStatus" keyProperty="id" parameterType="long" >
+  <update id="updateSellerStatus" keyProperty="id" parameterType="map" >
        update tb_seller set status = #{status} where seller_id = #{sellerId}
   </update>
 </mapper>
