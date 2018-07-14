@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/userIndex")
 public class TbSellerController {
-///userIndex/registerUser
+
     @Reference
     private TbSellerService tbSellerService;
 
