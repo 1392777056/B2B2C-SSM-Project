@@ -43,19 +43,14 @@ public interface TbSellerService {
      * @param id
      * @return
      */
-     TbSeller sellerInitFind(Long id);
+     TbSeller sellerInitFind(String id);
 
     /**
      * 修改单个审核
-     * @param tbSeller
+     * @param
      */
-    void sellerUpdate(TbSeller tbSeller);
+    void sellerUpdate(String status,String sellerId);
 
-    /**
-     * 删除单个审核
-     * @param ids
-     */
-    void sellerDel(Long[] ids);
 
     /**
      * 搜索审核功能

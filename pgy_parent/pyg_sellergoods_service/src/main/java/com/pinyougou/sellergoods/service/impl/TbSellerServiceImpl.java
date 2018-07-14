@@ -12,6 +12,7 @@ import domaincommon.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -69,31 +70,21 @@ public class TbSellerServiceImpl implements TbSellerService {
 
     /**
      * 查询单个审核
-     * @param id
-     * @return
      */
-    public TbSeller sellerInitFind(Long id) {
-        return null/*tbSellerMapper.selectByPrimaryKey(id)*/;
+    public TbSeller sellerInitFind(String id) {
+        return tbSellerMapper.selectByPrimaryKey(id);
     }
 
     /**
      *修改单个审核
-     * @param tbSeller
      */
-    public void sellerUpdate(TbSeller tbSeller) {
-        tbSellerMapper.updateByPrimaryKey(tbSeller);
+    public void sellerUpdate(String status,String sellerId) {
+        Map<String, String> map = new HashMap<>();
+        map.put("status",status);
+        map.put("sellerId",sellerId);
+        tbSellerMapper.updateSellerStatus(map);
     }
 
-    /**
-     * 删除单个审核
-     * @param ids
-     */
-    public void sellerDel(Long[] ids) {
-        for (Long id : ids) {
-           /* tbSellerMapper.deleteByPrimaryKey(id);*/
-        }
-
-    }
 
     /**
      * 搜索审核功能

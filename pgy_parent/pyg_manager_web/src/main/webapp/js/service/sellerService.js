@@ -10,14 +10,9 @@ app.service("sellerService",function ($http) {
         return $http.post("../seller/searchSellers/" + pageNum  + "/" + pageSize,searchEntity);
     };
 
-    /* 添加品牌 */
-    this.save = function (entity){
-        return $http.post("../seller/sellerSave",entity);
-    };
-
     /* 修改品牌 */
-    this.update = function (entity){
-        return $http.post("../seller/sellerUpdate",entity);
+    this.updateStatus = function (status,sellerId){
+        return $http.post("../seller/sellerUpdate/"+status + "/" +sellerId);
     };
 
     /* 修改单个对象 */
@@ -25,9 +20,6 @@ app.service("sellerService",function ($http) {
         return $http.post("../seller/sellerInitFind/"+id);
     };
 
-    /* 删除单个品牌 */
-    this.dele = function (selectIds) {
-        return $http.get("../seller/sellerDel/"+selectIds);
-    };
+
 
 });

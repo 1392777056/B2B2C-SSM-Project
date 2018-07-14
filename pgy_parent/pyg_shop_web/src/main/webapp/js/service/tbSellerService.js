@@ -1,4 +1,4 @@
-app.service("sellerService",function($http){
+app.service("tbsellerService",function($http){
 
     //增加
     this.add=function(entity){

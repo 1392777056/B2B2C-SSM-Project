@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17a7c81c-7f84-4a90-b24d-81af186ebc1a" name="Default" comment="审核未通过的 所有商家展示">
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbSellerController.java" />
+    <list default="true" id="17a7c81c-7f84-4a90-b24d-81af186ebc1a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pyg_dao/src/main/java/com/pinyougou/mapper/TbSellerMapper.java" afterPath="$PROJECT_DIR$/pyg_dao/src/main/java/com/pinyougou/mapper/TbSellerMapper.java" />
+      <change beforePath="$PROJECT_DIR$/pyg_dao/src/main/resources/com/pinyougou/mapper/TbSellerMapper.xml" afterPath="$PROJECT_DIR$/pyg_dao/src/main/resources/com/pinyougou/mapper/TbSellerMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbSellerController.java" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbSellerController.java" />
+      <change beforePath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/seller_1.html" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/seller_1.html" />
+      <change beforePath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/sellerController.js" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/sellerController.js" />
+      <change beforePath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/sellerService.js" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/sellerService.js" />
       <change beforePath="$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbSellerService.java" afterPath="$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbSellerService.java" />
       <change beforePath="$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbSellerServiceImpl.java" afterPath="$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbSellerServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbSellerController.java" afterPath="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbSellerController.java" />
+      <change beforePath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/registerController.js" afterPath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/registerController.js" />
+      <change beforePath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/tbSellerService.js" afterPath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/tbSellerService.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,24 +47,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="seller_1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seller_1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/seller_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="25" column="104" lean-forward="false" selection-start-line="25" selection-start-column="104" selection-end-line="25" selection-end-column="104" />
+            <state relative-caret-position="414">
+              <caret line="212" column="60" lean-forward="false" selection-start-line="212" selection-start-column="54" selection-end-line="212" selection-end-column="60" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="brand.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/brand.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="77" column="63" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="63" />
-              <folding>
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -66,18 +60,18 @@
       <file leaf-file-name="TbSeller.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyg_pojo/src/main/java/com/pinyougou/pojo/TbSeller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="48">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sellerController.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sellerController.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/sellerController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="32" />
+            <state relative-caret-position="576">
+              <caret line="30" column="64" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -86,8 +80,8 @@
       <file leaf-file-name="sellerService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/sellerService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="95" lean-forward="true" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
+            <state relative-caret-position="336">
+              <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -96,35 +90,63 @@
       <file leaf-file-name="TbSellerServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbSellerServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="111" column="61" lean-forward="true" selection-start-line="111" selection-start-column="61" selection-end-line="111" selection-end-column="61" />
+            <state relative-caret-position="264">
+              <caret line="80" column="16" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
               <folding>
-                <element signature="e#1114#1115#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1937#1938#0" expanded="true" />
-                <element signature="e#2005#2006#0" expanded="true" />
-                <element signature="e#2108#2109#0" expanded="true" />
-                <element signature="e#2167#2168#0" expanded="true" />
+                <element signature="e#1140#1141#0" expanded="true" />
+                <element signature="e#1199#1200#0" expanded="true" />
+                <element signature="e#1933#1934#0" expanded="true" />
+                <element signature="e#1993#1994#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbSellerMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyg_dao/src/main/java/com/pinyougou/mapper/TbSellerMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TbSellerMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyg_dao/src/main/resources/com/pinyougou/mapper/TbSellerMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="513" column="73" lean-forward="false" selection-start-line="513" selection-start-column="73" selection-end-line="513" selection-end-column="73" />
+              <folding>
+                <marker date="1531557362889" expanded="true" signature="5259:5377" ph="select from tb_seller" />
+                <marker date="1531557362889" expanded="true" signature="5463:5535" ph="delete from tb_seller... " />
+                <marker date="1531557362889" expanded="true" signature="5636:5657" ph="delete from tb_seller... " />
+                <marker date="1531557362889" expanded="true" signature="5835:7008" ph="insert into tb_seller... " />
+                <marker date="1531557362889" expanded="true" signature="11156:11186" ph="select count... tb_seller" />
+                <marker date="1531557362889" expanded="true" signature="14324:15704" ph="update tb_seller... " />
+                <marker date="1531557362889" expanded="true" signature="15913:18323" ph="update tb_seller... " />
+                <marker date="1531557362889" expanded="true" signature="18420:19635" ph="update tb_seller... " />
+                <marker date="1531557362889" expanded="true" signature="19732:19801" ph="update tb_seller... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="TbSellerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbSellerController.java">
+        <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbSellerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+            <state relative-caret-position="462">
+              <caret line="81" column="35" lean-forward="false" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TbUserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbUserService.java">
+      <file leaf-file-name="TbSellerService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbSellerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="336">
+              <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -159,6 +181,7 @@
       <find>Brand</find>
       <find>brand</find>
       <find>品牌</find>
+      <find>sellerService</find>
     </findStrings>
     <replaceStrings>
       <replace>Specification</replace>
@@ -172,6 +195,7 @@
       <replace>Seller</replace>
       <replace>seller</replace>
       <replace>审核</replace>
+      <replace>tbsellerService</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -180,8 +204,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pyg_dao/src/main/resources/com/pinyougou/mapper/TbBrandMapper.xml" />
-        <option value="$PROJECT_DIR$/pyg_dao/src/main/resources/com/pinyougou/mapper/TbSpecificationMapper.xml" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/specificationController.js" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/specification.html" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbTypeTemplateController.java" />
@@ -218,19 +240,21 @@
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/baseController.js" />
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/tbSellerController.js" />
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/resources/spring/spring-security.xml" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/registerController.js" />
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/register.html" />
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/tbSellerService.js" />
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pingyougou/shop/controller/TbSellerController.java" />
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbSellerController.java" />
+        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/tbSellerService.js" />
+        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/registerController.js" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/seller_1.html" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/sellerController.js" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/sellerService.js" />
-        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbSellerController.java" />
-        <option value="$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbSellerServiceImpl.java" />
         <option value="$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbSellerService.java" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbSellerController.java" />
-        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/seller_1.html" />
+        <option value="$PROJECT_DIR$/pyg_dao/src/main/java/com/pinyougou/mapper/TbSellerMapper.java" />
+        <option value="$PROJECT_DIR$/pyg_dao/src/main/resources/com/pinyougou/mapper/TbSellerMapper.xml" />
+        <option value="$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbSellerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbSellerController.java" />
       </list>
     </option>
   </component>
@@ -319,6 +343,32 @@
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
               <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -376,6 +426,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -467,41 +527,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -550,7 +575,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.shop_web">
+  <component name="RunManager" selected="Maven.manager_web">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -740,7 +765,7 @@
       <workItem from="1531485848106" duration="8437000" />
       <workItem from="1531494761987" duration="5437000" />
       <workItem from="1531526050743" duration="10414000" />
-      <workItem from="1531547582822" duration="5897000" />
+      <workItem from="1531547582822" duration="10048000" />
     </task>
     <task id="LOCAL-00001" summary="前端sellerContoller提交">
       <created>1531553463177</created>
@@ -763,11 +788,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531553547483</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="审核的内容第一次提交">
+      <created>1531553600148</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531553600148</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175805000" />
+    <option name="totallyTimeSpent" value="179956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -780,6 +812,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -788,18 +821,18 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31957546" sideWeight="0.50214595" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21405579" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44929245" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44929245" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18776824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="91" width="480" height="848" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18776824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="91" width="480" height="848" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Translate" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48820755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5884434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -821,7 +854,8 @@
     <MESSAGE value="前端sellerContoller提交" />
     <MESSAGE value="前端sellerService提交" />
     <MESSAGE value="查看审核页面数据第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="查看审核页面数据第一次提交" />
+    <MESSAGE value="审核的内容第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="审核的内容第一次提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -833,7 +867,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/itemCatController.js" />
     <entry file="file://$PROJECT_DIR$/pyg_shop_web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -990,14 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_dao/src/main/java/com/pinyougou/mapper/TbSellerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbItemCatServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -1018,13 +1043,6 @@
         <state relative-caret-position="1032">
           <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/registerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1059,14 +1077,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/tbSellerService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/userIndexController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1083,6 +1093,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="19" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/registerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/tbSellerService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbSellerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1091,98 +1135,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbSellerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbSellerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="115" column="39" lean-forward="true" selection-start-line="115" selection-start-column="39" selection-end-line="115" selection-end-column="39" />
-          <folding>
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
-            <element signature="e#1869#1870#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbSellerServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/seller_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="111" column="61" lean-forward="true" selection-start-line="111" selection-start-column="61" selection-end-line="111" selection-end-column="61" />
-          <folding>
-            <element signature="e#1114#1115#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1937#1938#0" expanded="true" />
-            <element signature="e#2005#2006#0" expanded="true" />
-            <element signature="e#2108#2109#0" expanded="true" />
-            <element signature="e#2167#2168#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbSellerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <caret line="212" column="60" lean-forward="false" selection-start-line="212" selection-start-column="54" selection-end-line="212" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/sellerService.js">
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/baseController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="95" lean-forward="true" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
+        <state relative-caret-position="192">
+          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyg_pojo/src/main/java/com/pinyougou/pojo/TbSeller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="48">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/brand.html">
+    <entry file="file://$PROJECT_DIR$/pyg_dao/src/main/java/com/pinyougou/mapper/TbSellerMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="77" column="63" lean-forward="false" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="63" />
+        <state relative-caret-position="648">
+          <caret line="31" column="27" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_dao/src/main/resources/com/pinyougou/mapper/TbSellerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="513" column="73" lean-forward="false" selection-start-line="513" selection-start-column="73" selection-end-line="513" selection-end-column="73" />
           <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1531557362889" expanded="true" signature="5259:5377" ph="select from tb_seller" />
+            <marker date="1531557362889" expanded="true" signature="5463:5535" ph="delete from tb_seller... " />
+            <marker date="1531557362889" expanded="true" signature="5636:5657" ph="delete from tb_seller... " />
+            <marker date="1531557362889" expanded="true" signature="5835:7008" ph="insert into tb_seller... " />
+            <marker date="1531557362889" expanded="true" signature="11156:11186" ph="select count... tb_seller" />
+            <marker date="1531557362889" expanded="true" signature="14324:15704" ph="update tb_seller... " />
+            <marker date="1531557362889" expanded="true" signature="15913:18323" ph="update tb_seller... " />
+            <marker date="1531557362889" expanded="true" signature="18420:19635" ph="update tb_seller... " />
+            <marker date="1531557362889" expanded="true" signature="19732:19801" ph="update tb_seller... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbSellerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="81" column="35" lean-forward="false" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbSellerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbSellerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="80" column="16" lean-forward="false" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+          <folding>
+            <element signature="e#1140#1141#0" expanded="true" />
+            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+            <element signature="e#1993#1994#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/sellerService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="58" lean-forward="false" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/sellerController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/seller_1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="25" column="104" lean-forward="false" selection-start-line="25" selection-start-column="104" selection-end-line="25" selection-end-column="104" />
+        <state relative-caret-position="576">
+          <caret line="30" column="64" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="64" />
           <folding />
         </state>
       </provider>

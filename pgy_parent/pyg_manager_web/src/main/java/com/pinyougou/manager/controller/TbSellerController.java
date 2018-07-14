@@ -67,41 +67,25 @@ public class TbSellerController {
      * @return
      */
     @RequestMapping("/sellerInitFind/{id}")
-    public TbSeller sellerInitFind(@PathVariable("id") Long id) {
+    public TbSeller sellerInitFind(@PathVariable("id") String id) {
         return tbSellerService.sellerInitFind(id);
     }
 
     /**
      * 修改单个审核
-     * @param tbSeller
+     * @param
      * @return
      */
-    @RequestMapping("/sellerUpdate")
-    public Result sellerUpdate(@RequestBody TbSeller tbSeller) {
+    @RequestMapping("/sellerUpdate/{status}/{sellerId}")
+    public Result sellerUpdate(@PathVariable("status") String status,@PathVariable("sellerId") String sellerId) {
         try {
-            tbSellerService.sellerUpdate(tbSeller);
-            return new Result(true,"修改成功");
+            tbSellerService.sellerUpdate(status,sellerId);
+            return new Result(true,"");
         } catch (Exception e) {
             e.printStackTrace();
-            return new Result(false,"修改失败");
+            return new Result(false,"状态未改变！");
         }
 
-    }
-
-    /**
-     * 删除单个审核
-     * @param ids
-     * @return
-     */
-    @RequestMapping("/sellerDel/{ids}")
-    public Result sellerDel(@PathVariable("ids") Long[] ids) {
-        try {
-            tbSellerService.sellerDel(ids);
-            return new Result(true,"修改成功");
-        } catch (Exception e) {
-            e.printStackTrace();
-            return new Result(false,"修改失败");
-        }
     }
 
     /**
