@@ -113,6 +113,10 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.pinyougou.pojo.TbGoods" >
+    <selectKey keyProperty="id" resultType="long" order="AFTER">
+      SELECT last_insert_id()
+    </selectKey>
+
     insert into tb_goods (id, seller_id, goods_name, 
       default_item_id, audit_status, is_marketable, 
       brand_id, caption, category1_id, 

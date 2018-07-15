@@ -69,5 +69,6 @@ public interface TbItemCatService {
      * @return
      */
     PageResult findParentId(int pageNum, int pageSize,Long parentId);
-    /*List<TbItemCat> findParentId(Long parentId);*/
+
+    List<TbItemCat> findParentId1(Long parentId);
 }

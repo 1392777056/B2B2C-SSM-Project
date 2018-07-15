@@ -121,11 +121,12 @@ public class TbItemCatServiceImpl implements TbItemCatService {
         Page page = (Page) tbItemCatMapper.selectByExample(itemCatExample);
         return new PageResult(page.getTotal(),page.getResult());
     }
-    /*public List<TbItemCat> findParentId(Long parentId) {
+
+    public List<TbItemCat> findParentId1(Long parentId) {
         TbItemCatExample itemCatExample = new TbItemCatExample();
         itemCatExample.createCriteria().andParentIdEqualTo(parentId);
         return tbItemCatMapper.selectByExample(itemCatExample);
-    }*/
+    }
 
 
 }
