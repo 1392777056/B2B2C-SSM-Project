@@ -1,4 +1,4 @@
-package com.pinyougou.manager.controller;
+package com.pinyougou.shop.controller;
 
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.RequestMapping;
