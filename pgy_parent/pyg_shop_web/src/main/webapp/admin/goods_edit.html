@@ -27,6 +27,7 @@
     <script type="text/javascript" src="../js/controller/tbGoodsController.js"></script>
 	<script type="text/javascript" src="../js/service/itemCatService.js"></script>
     <script type="text/javascript" src="../js/service/tbGoodsService.js"></script>
+    <script type="text/javascript" src="../js/service/typeTemplateService.js"></script>
 
     
 </head>
@@ -82,7 +83,7 @@
 		                           	  				<select ng-model="entity.tbGoods.category3Id" class="form-control" ng-options="ic.id as ic.name for ic in itemCategoty3List" class="form-control select-sm" ></select>
 		                              			</td>
 		                              			<td>
-		                           	  				模板ID:19
+		                           	  				模板ID:{{entity.tbGoods.typeTemplateId}}
 		                              			</td>
 		                           	  		</tr>
 		                           	  	</table>
@@ -97,7 +98,7 @@
 		                           
 		                           <div class="col-md-2 title">品牌</div>
 		                           <div class="col-md-10 data">
-		                              <select class="form-control" ></select>
+		                              <select class="form-control" ng-model="entity.tbGoods.brandId" ng-options="brand.id as brand.text for brand in brandList"  ></select>
 		                           </div>
 		 							 
 								   <div class="col-md-2 title">副标题</div>

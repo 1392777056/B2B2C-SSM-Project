@@ -15,13 +15,15 @@
     <link rel="stylesheet" href="../css/style.css">
 	<script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
     <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
-   
-    
+
+    <script type="text/javascript" src="../js/angularjs/angular.min.js"></script>
+    <script type="text/javascript" src="../js/build/base.js"></script>
+    <script type="text/javascript" src="../js/controller/userIndexController.js"></script>
+    <script type="text/javascript" src="../js/service/userIndexService.js"></script>
+    <script type="text/javascript" src="../js/service/tbSellerService.js"></script>
 </head>
 
-<body class="hold-transition skin-red sidebar-mini" >
-
-
+<body class="hold-transition skin-red sidebar-mini" ng-app="pinyougou" ng-controller="userIndexController" ng-init="findUser();findSellerAll(username)">
 
             <!-- 正文区域 -->
             <section class="content">
@@ -35,7 +37,7 @@
                         <ul class="nav nav-tabs">
                        		
                             <li class="active">
-                                <a href="#home" data-toggle="tab">商家信息</a>                             
+                                <a href="#home" data-toggle="tab">{{username}}商家信息</a>
                             </li>                            
                         </ul>
                         <!--tab头/-->
@@ -49,7 +51,7 @@
 
                                     <div class="col-md-2 title">公司名称</div>
                                     <div class="col-md-10 data">
-                                        <input type="text" class="form-control"   placeholder="公司名称" value="">
+                                        <input type="text" class="form-control" ng-model="entity.name"   placeholder="公司名称" value="">
                                     </div>
 									
 									<div class="col-md-2 title">公司手机</div>

@@ -1,5 +1,6 @@
 app.controller('registerController', function($scope,tbsellerService) {
 
+    /* 注册商家用户 */
     $scope.registerUser=function () {
         tbsellerService.add($scope.entity).success(function (response) {
             if(response.success){
@@ -8,5 +9,5 @@ app.controller('registerController', function($scope,tbsellerService) {
                 alert(response.message);
             }
         })
-    }
+    };
 });

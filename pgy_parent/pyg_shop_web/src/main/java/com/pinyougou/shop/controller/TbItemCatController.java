@@ -29,4 +29,9 @@ public class TbItemCatController {
     public List<TbItemCat> findParentId(@PathVariable("parentId") Long parentId) {
         return tbItemCatService.findParentId1(parentId);
     }
+
+    @RequestMapping("/findOne/{id}")
+    public TbItemCat findOne(@PathVariable("id") Long id) {
+        return tbItemCatService.itemCatInitFind(id);
+    }
 }

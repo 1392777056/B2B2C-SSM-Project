@@ -1,4 +1,4 @@
-app.controller("tbGoodsController",function ($scope,itemCatService,tbGoodsService) {
+app.controller("tbGoodsController",function ($scope,itemCatService,tbGoodsService,typeTemplateService) {
 
     $scope.parentId = 0;
     $scope.findItemCategoty1List = function () {
@@ -19,6 +19,20 @@ app.controller("tbGoodsController",function ($scope,itemCatService,tbGoodsServic
             $scope.itemCategoty3List = response;
         });
     });
+
+    $scope.$watch("entity.tbGoods.category3Id",function (newvalue) {
+        itemCatService.findOne(newvalue).success(function (response) {
+            $scope.entity.tbGoods.typeTemplateId = response.typeId;
+        });
+    });
+
+    /* 显示模板的Id */
+    $scope.$watch("entity.tbGoods.typeTemplateId",function (newvalue) {
+        typeTemplateService.initfindting(newvalue).success(function (response) {
+            $scope.brandList = JSON.parse(response.brandIds);
+        });
+    });
+
 
     /* 添加商品信息 */
     $scope.save = function () {

@@ -6,9 +6,12 @@ import com.pinyougou.sellergoods.service.TbSellerService;
 import domaincommon.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 /**
  * Create with www.dezhe.com
@@ -37,6 +40,11 @@ public class TbSellerController {
             e.printStackTrace();
             return new Result(false,"添加失败");
         }
+    }
+
+    @RequestMapping("/findSellerAll/{sellerId}")
+    public TbSeller getfindSellerAll(@PathVariable("sellerId") String sellerId) {
+        return tbSellerService.sellerInitFind(sellerId);
     }
 
 }

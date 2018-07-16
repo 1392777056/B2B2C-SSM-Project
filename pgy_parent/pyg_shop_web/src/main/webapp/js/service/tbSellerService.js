@@ -5,4 +5,8 @@ app.service("tbsellerService",function($http){
         return  $http.post('userIndex/registerUser',entity);
     };
 
+    this.findSellerAll = function(sellerId){
+        return $http.get("../userIndex/findSellerAll/"+ sellerId);
+    }
+
 });
