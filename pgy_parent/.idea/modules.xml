@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/pyg_sellergoods_interface/pyg_sellergoods_interface.iml" filepath="$PROJECT_DIR$/pyg_sellergoods_interface/pyg_sellergoods_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_sellergoods_service/pyg_sellergoods_service.iml" filepath="$PROJECT_DIR$/pyg_sellergoods_service/pyg_sellergoods_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_shop_web/pyg_shop_web.iml" filepath="$PROJECT_DIR$/pyg_shop_web/pyg_shop_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../zhangsfastFDS/zhangsfastFDS.iml" filepath="$PROJECT_DIR$/../zhangsfastFDS/zhangsfastFDS.iml" />
     </modules>
   </component>
 </project>

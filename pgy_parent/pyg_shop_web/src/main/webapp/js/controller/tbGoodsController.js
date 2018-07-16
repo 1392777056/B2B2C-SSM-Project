@@ -1,4 +1,23 @@
-app.controller("tbGoodsController",function ($scope,itemCatService,tbGoodsService,typeTemplateService) {
+app.controller("tbGoodsController",function ($scope,itemCatService,uploadService,tbGoodsService,typeTemplateService) {
+
+    /* 对保存的图片格式进行初始化 */
+    $scope.entity = {tbGoodsDesc:{itemImages:[]}};
+
+    /* 添加保存 */
+    $scope.addGoodsToImages = function () {
+        $scope.entity.tbGoodsDesc.itemImages.push($scope.images);
+    };
+
+    /* 图片上传 */
+    $scope.uploadGoodImages = function () {
+        uploadService.uploadGoodImage().success(function (response) {
+            if (response.success){
+                $scope.images.url=response.message;
+            }else {
+                alert(response.message);
+            }
+        })
+    };
 
     $scope.parentId = 0;
     $scope.findItemCategoty1List = function () {
