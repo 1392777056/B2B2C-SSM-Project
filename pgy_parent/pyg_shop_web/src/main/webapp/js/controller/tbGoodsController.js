@@ -8,6 +8,10 @@ app.controller("tbGoodsController",function ($scope,itemCatService,uploadService
         $scope.entity.tbGoodsDesc.itemImages.push($scope.images);
     };
 
+    $scope.delGoodImage = function (index) {
+        $scope.entity.tbGoodsDesc.itemImages.splice(index,1);
+    };
+
     /* 图片上传 */
     $scope.uploadGoodImages = function () {
         uploadService.uploadGoodImage().success(function (response) {
