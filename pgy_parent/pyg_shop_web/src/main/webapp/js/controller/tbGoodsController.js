@@ -1,7 +1,7 @@
 app.controller("tbGoodsController",function ($scope,itemCatService,uploadService,tbGoodsService,typeTemplateService) {
 
     /* 对保存的图片格式进行初始化 */
-    $scope.entity = {tbGoodsDesc:{itemImages:[]}};
+    $scope.entity = {tbGoodsDesc:{itemImages:[],specificationItems:[]},tbGoods:{isEnableSpec:'1'}};
 
     /* 添加保存 */
     $scope.addGoodsToImages = function () {
@@ -60,6 +60,36 @@ app.controller("tbGoodsController",function ($scope,itemCatService,uploadService
             });
         });
     });
+
+    /* 点击规格详细表，进行添加或修改 */
+    $scope.updateSpecification = function ($event,specName,optionName) {
+        if ($event.target.checked) {
+           var specObj =  selectObjFromList($scope.entity.tbGoodsDesc.specificationItems,specName);
+           /* 如果有对象  再去追加属性中的值 */
+           if (specObj != null) {
+               specObj.attributeValue.push(optionName);
+           } else {
+               $scope.entity.tbGoodsDesc.specificationItems.push({attributeName:specName,attributeValue:[specName]});
+           }
+        } else {
+            var specObj =  selectObjFromList($scope.entity.tbGoodsDesc.specificationItems,specName);
+            var index= specObj.attributeValue.indexOf(optionName);
+            specObj.attributeValue.splice(index,1);
+            if(specObj.attributeValue.length == 0) {
+                var index = $scope.entity.tbGoodsDesc.specificationItems.indexOf(specObj);
+                $scope.entity.tbGoodsDesc.specificationItems.splice(index,1);
+            }
+        }
+    };
+
+    function selectObjFromList(specificationItems,specName) {
+        for (var i = 0; i < specificationItems.length; i++) {
+            if(specificationItems[i].attributeName == specName){
+                return specificationItems[i];
+            }
+        }
+        return null;
+    }
 
 
     /* 添加商品信息 */
