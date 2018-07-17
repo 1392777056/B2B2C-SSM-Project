@@ -13,7 +13,6 @@
         <module name="pyg_sellergoods_interface" />
         <module name="pyg_sellergoods_service" />
         <module name="pyg_shop_web" />
-        <module name="zhangsfastFDS" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
