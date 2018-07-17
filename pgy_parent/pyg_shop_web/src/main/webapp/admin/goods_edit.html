@@ -27,8 +27,8 @@
 	<script type="text/javascript" src="../js/service/itemCatService.js"></script>
     <script type="text/javascript" src="../js/service/tbGoodsService.js"></script>
     <script type="text/javascript" src="../js/service/uploadService.js"></script>
-    <script type="text/javascript" src="../js/controller/tbGoodsController.js"></script>
-    <script type="text/javascript" src="../js/service/typeTemplateService.js"></script>
+	<script type="text/javascript" src="../js/service/typeTemplateService.js"></script>
+	<script type="text/javascript" src="../js/controller/tbGoodsController.js"></script>
 
     
 </head>
@@ -170,18 +170,12 @@
                             <!--扩展属性-->
                             <div class="tab-pane" id="customAttribute">
                                 <div class="row data-type">                                
-	                                <div>
-		                                <div class="col-md-2 title">扩展属性1</div>
+	                                <div ng-repeat="comattr in entity.tbGoodsDesc.customAttributeItems">
+		                                <div class="col-md-2 title">{{comattr.text}}</div>
 				                        <div class="col-md-10 data">
-				                              <input class="form-control" placeholder="扩展属性1">	            	 
+				                              <input class="form-control" ng-model="comattr.value" placeholder="{{comattr.text}}">
 				                        </div>
-	                                </div>       
-									<div>
-		                                <div class="col-md-2 title">扩展属性2</div>
-				                        <div class="col-md-10 data">
-				                              <input class="form-control" placeholder="扩展属性2">	            	 
-				                        </div>
-	                                </div>  									
+	                                </div>
                                 </div>
                             </div>
                       
@@ -199,39 +193,17 @@
                             	
 	                                <div class="row data-type">
 	                                
-		                                <div>
-			                                <div class="col-md-2 title">屏幕尺寸</div>
+		                                <div ng-repeat="spec in specList">
+			                                <div class="col-md-2 title">{{spec.text}}</div>
 					                        <div class="col-md-10 data">
 					                               
-					                            <span>
-					                            	<input  type="checkbox" >4.0					                            				                            	
+					                            <span ng-repeat="option in spec.options">
+					                            	<input  type="checkbox" >{{option.optionName}}
 					                            </span>  	
-												<span>
-					                            	<input  type="checkbox" >4.5					                            				                            	
-					                            </span>
-												<span>
-					                            	<input  type="checkbox" >5.0					                            				                            	
-					                            </span>												
-					                            	
+
 					                        </div>
-		                                </div>   
-										<div>
-			                                <div class="col-md-2 title">网络制式</div>
-					                        <div class="col-md-10 data">
-					                               
-					                            <span>
-					                            	<input  type="checkbox" >2G					                            				                            	
-					                            </span>  	
-												<span>
-					                            	<input  type="checkbox" >3G					                            				                            	
-					                            </span>
-												<span>
-					                            	<input  type="checkbox" >4G					                            				                            	
-					                            </span>												
-					                            	
-					                        </div>
-		                                </div>  
-		                                                                                  
+		                                </div>
+
 	                                </div>
 	
 	                                
@@ -376,7 +348,7 @@
 						<table>
 							<tr>
 								<td>
-								<input type="file" id="file"/>
+									<input type="file" id="file">
 					                <button class="btn btn-primary" ng-click="uploadGoodImages()" type="button" >
 				                   		上传
 					                </button>	

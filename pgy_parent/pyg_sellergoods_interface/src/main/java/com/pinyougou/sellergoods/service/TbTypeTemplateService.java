@@ -4,6 +4,7 @@ import com.pinyougou.pojo.TbTypeTemplate;
 import domaincommon.PageResult;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Create with www.dezhe.com
@@ -61,4 +62,6 @@ public interface TbTypeTemplateService {
      * @return
      */
     PageResult searchTypeTemplate(int pageNum, int pageSize, TbTypeTemplate tbTypeTemplate);
+
+    List<Map> findSpecList(Long id);
 }

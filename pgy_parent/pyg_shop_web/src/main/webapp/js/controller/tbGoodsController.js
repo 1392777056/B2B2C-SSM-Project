@@ -52,7 +52,12 @@ app.controller("tbGoodsController",function ($scope,itemCatService,uploadService
     /* 显示模板的Id */
     $scope.$watch("entity.tbGoods.typeTemplateId",function (newvalue) {
         typeTemplateService.initfindting(newvalue).success(function (response) {
-            $scope.brandList = JSON.parse(response.brandIds);
+            $scope.brandList = JSON.parse(response.brandIds);  // 显示某模板下的品牌
+            $scope.entity.tbGoodsDesc.customAttributeItems = JSON.parse(response.customAttributeItems); // 显示某模板下的扩展属性
+
+            typeTemplateService.findSpecLists(newvalue).success(function (response) {
+                $scope.specList = response;
+            });
         });
     });
 

@@ -5,6 +5,10 @@ app.service("typeTemplateService",function ($http) {
         return $http.get("../typeTemplate/findAll");
     };
 
+    this.findSpecLists = function (typeId) {
+        return $http.get("../typeTemplate/findSpecList/"+ typeId);
+    };
+
     /* 分页 */
     this.findPages = function(pageNum,pageSize) {
         return $http.get("../typeTemplate/typeTemplatePage/" + pageNum + "/" + pageSize);

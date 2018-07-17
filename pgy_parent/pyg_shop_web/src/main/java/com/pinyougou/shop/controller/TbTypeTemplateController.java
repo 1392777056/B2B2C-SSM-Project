@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Create with www.dezhe.com
@@ -33,6 +34,11 @@ public class TbTypeTemplateController {
     @RequestMapping("/findAll")
     public List<TbTypeTemplate> findAll(){
         return tbTypeTemplateService.findAll();
+    }
+
+    @RequestMapping("/findSpecList/{id}")
+    public List<Map> findSpecList(@PathVariable("id") Long id){
+        return tbTypeTemplateService.findSpecList(id);
     }
 
     /**
