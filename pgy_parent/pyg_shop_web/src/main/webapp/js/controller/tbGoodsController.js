@@ -55,6 +55,7 @@ app.controller("tbGoodsController",function ($scope,itemCatService,uploadService
             $scope.brandList = JSON.parse(response.brandIds);  // 显示某模板下的品牌
             $scope.entity.tbGoodsDesc.customAttributeItems = JSON.parse(response.customAttributeItems); // 显示某模板下的扩展属性
 
+            $scope.entity.itemList = [{spec:{},price:0,num:9999,status:"1",isDefault:"0"}];
             typeTemplateService.findSpecLists(newvalue).success(function (response) {
                 $scope.specList = response;
             });
@@ -69,7 +70,7 @@ app.controller("tbGoodsController",function ($scope,itemCatService,uploadService
            if (specObj != null) {
                specObj.attributeValue.push(optionName);
            } else {
-               $scope.entity.tbGoodsDesc.specificationItems.push({attributeName:specName,attributeValue:[specName]});
+               $scope.entity.tbGoodsDesc.specificationItems.push({attributeName:specName,attributeValue:[optionName]});
            }
         } else {
             var specObj =  selectObjFromList($scope.entity.tbGoodsDesc.specificationItems,specName);
@@ -80,7 +81,35 @@ app.controller("tbGoodsController",function ($scope,itemCatService,uploadService
                 $scope.entity.tbGoodsDesc.specificationItems.splice(index,1);
             }
         }
+
+        createItemList();
     };
+
+    /* 追加规格项 */
+    function createItemList() {
+        /*
+        * spec  {"机身内存":"16G","网络":"联通3G"}
+        * $scope.entity.tbGoodsDesc.specificationItems
+        * [{"attributeName":"网络制式","attributeValue":["移动3G","移动4G"]},{"attributeName":"屏幕尺寸","attributeValue":["6寸","5寸"]}]
+        * */
+        var specItems = $scope.entity.tbGoodsDesc.specificationItems;
+        $scope.entity.itemList = [{spec:{},price:0,num:9999,status:"1",isDefault:"0"}];
+        for (var i = 0; i < specItems.length; i++) {
+            $scope.entity.itemList = addItemColumn($scope.entity.itemList,specItems[i].attributeName,specItems[i].attributeValue);
+        }
+    }
+    /* 往列中取追加值 */
+    function addItemColumn(itemList,attributeName,attributeValue) {
+        var newList = [];
+            for (var i = 0; i < itemList.length; i++) {
+            for (var j = 0; j < attributeValue.length; j++) {
+                var newItem= JSON.parse(JSON.stringify(itemList[i]));   //涉及到了深克隆和浅克隆的问题
+                newItem.spec[attributeName] = attributeValue[j];
+                newList.push(newItem);
+            }
+        }
+        return newList;
+    }
 
     function selectObjFromList(specificationItems,specName) {
         for (var i = 0; i < specificationItems.length; i++) {

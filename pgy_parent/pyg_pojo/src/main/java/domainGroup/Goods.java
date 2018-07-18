@@ -22,7 +22,15 @@ public class Goods implements Serializable {
     private TbGoodsDesc tbGoodsDesc;
 
     // 商品规格表
-    private List<TbItem> tbItems;
+    private List<TbItem> itemList;
+
+    public List<TbItem> getItemList() {
+        return itemList;
+    }
+
+    public void setItemList(List<TbItem> itemList) {
+        this.itemList = itemList;
+    }
 
     public TbGoods getTbGoods() {
         return tbGoods;
@@ -40,11 +48,5 @@ public class Goods implements Serializable {
         this.tbGoodsDesc = tbGoodsDesc;
     }
 
-    public List<TbItem> getTbItems() {
-        return tbItems;
-    }
 
-    public void setTbItems(List<TbItem> tbItems) {
-        this.tbItems = tbItems;
-    }
 }
