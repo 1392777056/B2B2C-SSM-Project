@@ -63,4 +63,6 @@ public interface TbSellerService {
     PageResult searchSeller(int pageNum, int pageSize, TbSeller tbSeller);
 
     TbSeller findBySellerId(String username);
+
+    void updateSellerInfo(TbSeller tbSeller);
 }

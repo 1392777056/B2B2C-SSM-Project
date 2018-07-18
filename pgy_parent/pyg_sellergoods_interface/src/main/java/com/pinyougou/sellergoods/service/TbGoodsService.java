@@ -1,6 +1,11 @@
 package com.pinyougou.sellergoods.service;
 
-import domainGroup.Goods; /**
+import com.pinyougou.pojo.TbBrand;
+import com.pinyougou.pojo.TbGoods;
+import domainGroup.Goods;
+import domaincommon.PageResult;
+
+/**
  * Create with www.dezhe.com
  *
  * @Author 德哲
@@ -13,4 +18,13 @@ public interface TbGoodsService {
      * @param goods
      */
     void getAddGoods(Goods goods);
+
+    /**
+     * 搜索品牌功能
+     * @param pageNum
+     * @param pageSize
+     * @param tbGoods
+     * @return
+     */
+    PageResult searchGoods(int pageNum, int pageSize, TbGoods tbGoods);
 }

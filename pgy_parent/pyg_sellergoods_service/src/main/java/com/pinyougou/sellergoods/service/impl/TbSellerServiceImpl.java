@@ -121,5 +121,10 @@ public class TbSellerServiceImpl implements TbSellerService {
         return null;
     }
 
+    @Override
+    public void updateSellerInfo(TbSeller tbSeller) {
+        tbSellerMapper.updateByPrimaryKey(tbSeller);
+    }
+
 
 }

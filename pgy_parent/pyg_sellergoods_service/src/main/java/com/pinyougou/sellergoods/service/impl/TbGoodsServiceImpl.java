@@ -1,12 +1,15 @@
 package com.pinyougou.sellergoods.service.impl;
 
+import com.alibaba.dubbo.common.utils.StringUtils;
 import com.alibaba.dubbo.config.annotation.Service;
+import com.github.pagehelper.Page;
+import com.github.pagehelper.PageHelper;
 import com.pinyougou.mapper.TbGoodsDescMapper;
 import com.pinyougou.mapper.TbGoodsMapper;
-import com.pinyougou.pojo.TbGoods;
-import com.pinyougou.pojo.TbGoodsDesc;
+import com.pinyougou.pojo.*;
 import com.pinyougou.sellergoods.service.TbGoodsService;
 import domainGroup.Goods;
+import domaincommon.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
@@ -35,5 +38,17 @@ public class TbGoodsServiceImpl implements TbGoodsService {
         TbGoodsDesc tbGoodsDesc = goods.getTbGoodsDesc();
         tbGoodsDesc.setGoodsId(tbGoods.getId());
         tbGoodsDescMapper.insert(tbGoodsDesc);
+    }
+
+
+    public PageResult searchGoods(int pageNum, int pageSize, TbGoods tbGoods) {
+        PageHelper.startPage(pageNum,pageSize);
+        TbGoodsExample tbGoodsExample = new TbGoodsExample();
+        TbGoodsExample.Criteria criteria = tbGoodsExample.createCriteria();
+        if (StringUtils.isNotEmpty(tbGoods.getGoodsName())){
+            criteria.andGoodsNameLike("%"+tbGoods.getGoodsName()+"%");
+        }
+        Page page = (Page) tbGoodsMapper.selectByExample(tbGoodsExample);
+        return new PageResult(page.getTotal(),page.getResult());
     }
 }
