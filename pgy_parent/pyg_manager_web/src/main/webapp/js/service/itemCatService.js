@@ -1,5 +1,9 @@
 app.service("itemCatService",function ($http) {
 
+    this.findAlls = function () {
+      return $http.get("../itemCat/findAll");
+    };
+
     this.findItemCatList = function () {
         return $http.get("../itemCat/findItemCatList");
     };

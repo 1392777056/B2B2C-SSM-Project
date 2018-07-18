@@ -4,6 +4,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.pinyougou.pojo.TbGoods;
 import com.pinyougou.sellergoods.service.TbGoodsService;
 import domaincommon.PageResult;
+import domaincommon.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -33,5 +34,16 @@ public class TbGoodsController {
     @RequestMapping("/sreachGoods/{pageNum}/{pageSize}")
     public PageResult sreachGoods(@PathVariable("pageNum") int pageNum, @PathVariable("pageSize") int pageSize, @RequestBody TbGoods tbGoods) {
         return goodsService.searchGoods(pageNum,pageSize,tbGoods);
+    }
+
+    @RequestMapping("/updateAuditStatus/{selectIds}/{auditStatus}")
+    public Result updateAuditStatus(@PathVariable("selectIds") Long[] selectIds, @PathVariable("auditStatus") String auditStatus) {
+        try {
+            goodsService.updateAuditStatus(selectIds,auditStatus);
+            return new Result(true,"");
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result(false,"状态修改失败");
+        }
     }
 }

@@ -1,5 +1,6 @@
 app.service("itemCatService",function ($http) {
 
+
     this.findParentId = function (parentId) {
         return $http.get("../itemCat/findParentId1/"+parentId);
     };
@@ -8,4 +9,7 @@ app.service("itemCatService",function ($http) {
         return $http.get("../itemCat/findOne/" + id);
     }
 
+    this.findAlls = function () {
+        return $http.get("../itemCat/findAll");
+    };
 });

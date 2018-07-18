@@ -5,4 +5,8 @@ app.service("tbGoodsService",function ($http) {
         return $http.post("../goods/add",entity);
     }
 
+
+    this.updateAuditStatus = function (selectIds,auditStatus) {
+        return $http.get("../goodsController/updateAuditStatus/"+selectIds+"/"+auditStatus);
+    }
 });

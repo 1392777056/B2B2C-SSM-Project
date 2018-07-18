@@ -50,6 +50,7 @@ public class TbGoodsServiceImpl implements TbGoodsService {
     public void getAddGoods(Goods goods) {
         TbGoods tbGoods = goods.getTbGoods();
         tbGoods.setAuditStatus("0");
+        tbGoods.setIsMarketable("0");
         tbGoodsMapper.insert(tbGoods);
         TbGoodsDesc tbGoodsDesc = goods.getTbGoodsDesc();
         tbGoodsDesc.setGoodsId(tbGoods.getId());
@@ -134,7 +135,20 @@ public class TbGoodsServiceImpl implements TbGoodsService {
         if (StringUtils.isNotEmpty(tbGoods.getGoodsName())){
             criteria.andGoodsNameLike("%"+tbGoods.getGoodsName()+"%");
         }
+        if (StringUtils.isNotEmpty(tbGoods.getAuditStatus())){
+            criteria.andAuditStatusEqualTo(tbGoods.getAuditStatus());
+        }
         Page page = (Page) tbGoodsMapper.selectByExample(tbGoodsExample);
         return new PageResult(page.getTotal(),page.getResult());
     }
+
+    @Override
+    public void updateAuditStatus(Long[] selectIds, String auditStatus) {
+        for (Long selectId : selectIds) {
+            TbGoods tbGoods = tbGoodsMapper.selectByPrimaryKey(selectId);
+            tbGoods.setAuditStatus(auditStatus);
+            tbGoodsMapper.updateByPrimaryKey(tbGoods);
+        }
+    }
+
 }

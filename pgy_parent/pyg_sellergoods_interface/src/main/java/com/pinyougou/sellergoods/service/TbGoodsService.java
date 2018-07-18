@@ -27,4 +27,7 @@ public interface TbGoodsService {
      * @return
      */
     PageResult searchGoods(int pageNum, int pageSize, TbGoods tbGoods);
+
+
+    void updateAuditStatus(Long[] selectIds, String auditStatus);
 }

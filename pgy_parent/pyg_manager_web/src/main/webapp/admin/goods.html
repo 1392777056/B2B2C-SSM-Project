@@ -19,14 +19,14 @@
 	<script src="../js/angularjs/angular.min.js"></script>
 	<script src="../js/angularjs/pagination.js"></script>
 	<script src="../js/build/base_pagination.js"></script>
-	<script src="../js/service/brandService.js"></script>
 	<script src="../js/controller/baseController.js"></script>
 	<script src="../js/controller/goodsController.js"></script>
+	<script src="../js/service/itemCatService.js"></script>
 	<script src="../js/service/goodsService.js"></script>
 
 </head>
 
-<body class="hold-transition skin-red sidebar-mini" ng-app="pinyougou" ng-controller="goodsController" >
+<body class="hold-transition skin-red sidebar-mini" ng-app="pinyougou" ng-controller="goodsController" ng-init="searchEntity={auditStatus:'0'};selectCatoryAll()" >
   <!-- .box-body -->
                 
                     <div class="box-header with-border">
@@ -43,8 +43,8 @@
                                 <div class="form-group form-inline">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-default" title="删除" ><i class="fa fa-trash-o"></i> 删除</button>
-                                        <button type="button" class="btn btn-default" title="审核通过" ><i class="fa fa-check"></i> 审核通过</button>
-                                        <button type="button" class="btn btn-default" title="驳回" ><i class="fa fa-ban"></i> 驳回</button>                                  
+                                        <button type="button" class="btn btn-default" ng-click="updateAuditStatus('1')" title="审核通过" ><i class="fa fa-check"></i> 审核通过</button>
+                                        <button type="button" class="btn btn-default" ng-click="updateAuditStatus('2')" title="驳回" ><i class="fa fa-ban"></i> 驳回</button>
                                         <button type="button" class="btn btn-default" title="刷新" ><i class="fa fa-refresh"></i> 刷新</button>
                                     </div>
                                 </div>
@@ -76,19 +76,19 @@
 			                      </thead>
 			                      <tbody>
 			                          <tr ng-repeat="pojo in list">
-			                              <td><input type="checkbox"></td>			                              
+			                              <td><input type="checkbox" ng-click="selections($event,pojo.id)"></td>
 				                          <td>{{pojo.id}}</td>
 									      <td>{{pojo.goodsName}}</td>
 									      <td>{{pojo.price}}</td>
-									      <td>{{pojo.category1Id}}</td>
-									      <td>{{pojo.category2Id}}</td>
-									      <td>{{pojo.category3Id}}</td>
-		                                  <td>		                                  
+									      <td>{{category[pojo.category1Id]}}</td>
+									      <td>{{category[pojo.category2Id]}}</td>
+									      <td>{{category[pojo.category3Id]}}</td>
+		                                  <td>
 		                                  	<span>
-		                                  		{{pojo.auditStatus}}
+		                                  		{{status[pojo.auditStatus]}}
 		                                  	</span>
-		                                  	
-		                                  </td>		                                  
+
+		                                  </td>
 		                                  <td class="text-center">                                          
 		                                 	  <button type="button" class="btn bg-olive btn-xs" >详情</button>                  
 		                                  </td>

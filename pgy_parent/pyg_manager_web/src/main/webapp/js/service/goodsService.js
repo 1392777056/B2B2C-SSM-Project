@@ -4,4 +4,8 @@ app.service("goodsService",function ($http) {
     this.sreachGoods = function (pageNum,pageSize,searchEntity) {
         return $http.post("../goodsController/sreachGoods/" + pageNum  + "/" + pageSize,searchEntity);
     };
+
+    this.updateAuditStatus = function (selectIds,auditStatus) {
+        return $http.get("../goodsController/updateAuditStatus/"+selectIds+"/"+auditStatus);
+    }
 });
