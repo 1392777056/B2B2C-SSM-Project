@@ -3,8 +3,7 @@ app.controller("tbGoodsController",function ($scope,$controller,itemCatService,u
     /* 继承 baseController */
     $controller('baseController',{$scope:$scope});
 
-    $scope.status = ["未审核","审核通过","审核未通过","关闭"];
-
+    $scope.maketStatus = ["未上架","上架","下架"];
     $scope.category={};
     /* 查询分类 */
     $scope.selectCatoryAll = function () {
@@ -17,15 +16,29 @@ app.controller("tbGoodsController",function ($scope,$controller,itemCatService,u
 
     /* 搜索框 */
     $scope.sreach = function (pageNum,pageSize) {
-        goodsService.sreachGoods(pageNum,pageSize,$scope.searchEntity).success(function (response) {
+        tbGoodsService.sreachGoods(pageNum,pageSize,$scope.searchEntity).success(function (response) {
             $scope.list = response.rows;
             $scope.paginationConf.totalItems = response.total;
         });
     };
 
+    $scope.deleIsDele = function (IsDeleid) {
+      tbGoodsService.deleIsDele($scope.selectIds,IsDeleid).success(function (response) {
+          if (confirm("确认要从列表删除商品？")){
+              if (response.success){
+                  $scope.reloadList();
+                  $scope.selectIds = [];
+              } else {
+                  alert(response.message);
+              }
+          }
+
+      });
+    };
+
     /* 通过状态去修改审核通过 */
-    $scope.updateAuditStatus = function (auditStatus) {
-        goodsService.updateAuditStatus($scope.selectIds,auditStatus).success(function (response) {
+    $scope.updateMarketable = function (isMarketable) {
+        tbGoodsService.updateMarketable($scope.selectIds,isMarketable).success(function (response) {
             if (response.success) {
                 $scope.reloadList();
                 $scope.selectIds = [];
@@ -34,7 +47,7 @@ app.controller("tbGoodsController",function ($scope,$controller,itemCatService,u
             }
 
         });
-    }
+    };
 
 
     /* 对保存的图片格式进行初始化 */
@@ -122,10 +135,7 @@ app.controller("tbGoodsController",function ($scope,$controller,itemCatService,u
         createItemList();
     };
 
-    $scope.deleSepcs = function (index) {
-        var index =  $scope.entity.itemList.indexOf(entity.itemList);
-        $scope.entity.itemList.splice(index,1);
-    };
+
 
     /* 追加规格项 */
     function createItemList() {

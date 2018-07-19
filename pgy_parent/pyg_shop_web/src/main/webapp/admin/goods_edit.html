@@ -28,6 +28,7 @@
     <script type="text/javascript" src="../js/service/tbGoodsService.js"></script>
     <script type="text/javascript" src="../js/service/uploadService.js"></script>
 	<script type="text/javascript" src="../js/service/typeTemplateService.js"></script>
+	<script type="text/javascript" src="../js/controller/baseController.js"></script>
 	<script type="text/javascript" src="../js/controller/tbGoodsController.js"></script>
 
     
@@ -199,7 +200,7 @@
 					                        <div class="col-md-10 data">
 					                               
 					                            <span ng-repeat="option in spec.options">
-					                            	<input  type="checkbox" ng-click="updateSpecification($event,spec.text,option.optionName)" >{{option.optionName}}
+					                            	<input  type="checkbox"   ng-click="updateSpecification($event,spec.text,option.optionName)" >
 					                            </span>  	
 
 					                        </div>

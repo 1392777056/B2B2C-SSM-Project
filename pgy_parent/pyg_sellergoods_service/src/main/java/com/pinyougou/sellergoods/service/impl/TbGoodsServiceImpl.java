@@ -51,6 +51,7 @@ public class TbGoodsServiceImpl implements TbGoodsService {
         TbGoods tbGoods = goods.getTbGoods();
         tbGoods.setAuditStatus("0");
         tbGoods.setIsMarketable("0");
+        tbGoods.setIsDelete("0");
         tbGoodsMapper.insert(tbGoods);
         TbGoodsDesc tbGoodsDesc = goods.getTbGoodsDesc();
         tbGoodsDesc.setGoodsId(tbGoods.getId());
@@ -146,7 +147,25 @@ public class TbGoodsServiceImpl implements TbGoodsService {
     public void updateAuditStatus(Long[] selectIds, String auditStatus) {
         for (Long selectId : selectIds) {
             TbGoods tbGoods = tbGoodsMapper.selectByPrimaryKey(selectId);
-            tbGoods.setAuditStatus(auditStatus);
+            tbGoods.setIsMarketable(auditStatus);
+            tbGoodsMapper.updateByPrimaryKey(tbGoods);
+        }
+    }
+
+    @Override
+    public void updateMarketable(Long[] selectIds, String isMarketable) {
+        for (Long selectId : selectIds) {
+            TbGoods tbGoods = tbGoodsMapper.selectByPrimaryKey(selectId);
+            tbGoods.setIsMarketable(isMarketable);
+            tbGoodsMapper.updateByPrimaryKey(tbGoods);
+        }
+    }
+
+    @Override
+    public void deleIsDele(Long[] selectIds, String isDeleid) {
+        for (Long selectId : selectIds) {
+            TbGoods tbGoods = tbGoodsMapper.selectByPrimaryKey(selectId);
+            tbGoods.setIsDelete(isDeleid);
             tbGoodsMapper.updateByPrimaryKey(tbGoods);
         }
     }

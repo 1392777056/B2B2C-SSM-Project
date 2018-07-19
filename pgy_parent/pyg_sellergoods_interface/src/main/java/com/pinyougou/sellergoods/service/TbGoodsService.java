@@ -30,4 +30,7 @@ public interface TbGoodsService {
 
 
     void updateAuditStatus(Long[] selectIds, String auditStatus);
+    void updateMarketable(Long[] selectIds, String isMarketable);
+
+    void deleIsDele(Long[] selectIds, String isDeleid);
 }

@@ -34,4 +34,13 @@ public class TbItemCatController {
     public TbItemCat findOne(@PathVariable("id") Long id) {
         return tbItemCatService.itemCatInitFind(id);
     }
+
+     /**
+     * 查询所有分类
+     * @return
+     */
+    @RequestMapping("/findAll")
+    public List<TbItemCat> findAll(){
+        return tbItemCatService.findAll();
+    }
 }

@@ -7,7 +7,7 @@ app.service("itemCatService",function ($http) {
 
     this.findOne = function (id) {
         return $http.get("../itemCat/findOne/" + id);
-    }
+    };
 
     this.findAlls = function () {
         return $http.get("../itemCat/findAll");

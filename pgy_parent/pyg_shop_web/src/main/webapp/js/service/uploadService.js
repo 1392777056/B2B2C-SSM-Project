@@ -1,6 +1,5 @@
 app.service("uploadService",function ($http) {
 
-
     /* 图片上传 */
     this.uploadGoodImage = function () {
         var formData=new FormData();  // H5对象

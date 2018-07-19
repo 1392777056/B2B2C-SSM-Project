@@ -20,10 +20,12 @@
 	<script src="../js/angularjs/pagination.js"></script>
 	<script src="../js/build/base_pagination.js"></script>
 	<script src="../js/controller/baseController.js"></script>
-	<script src="../js/controller/tbGoodsController.js"></script>
+	<script src="../js/service/uploadService.js"></script>
+	<script src="../js/service/typeTemplateService.js"></script>
 	<script src="../js/service/itemCatService.js"></script>
 	<script src="../js/service/tbGoodsService.js"></script>
- 
+	<script src="../js/controller/tbGoodsController.js"></script>
+
 </head>
 
 <body class="hold-transition skin-red sidebar-mini" ng-app="pinyougou" ng-controller="tbGoodsController" ng-init="selectCatoryAll()">
@@ -43,23 +45,22 @@
                                 <div class="form-group form-inline">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-default" title="新建" ><i class="fa fa-file-o"></i> 新建</button>
-                                        <button type="button" class="btn btn-default" title="删除" ><i class="fa fa-trash-o"></i> 删除</button>
-                                        <button type="button" class="btn btn-default" title="提交审核" ><i class="fa fa-check"></i> 提交审核</button>
-                                        <button type="button" class="btn btn-default" title="屏蔽" onclick='confirm("你确认要屏蔽吗？")'><i class="fa fa-ban"></i> 屏蔽</button>
-                                        <button type="button" class="btn btn-default" title="刷新" onclick="window.location.reload();"><i class="fa fa-refresh"></i> 刷新</button>
+                                        <button type="button" class="btn btn-default" title="删除" ng-click="deleIsDele('1')"><i class="fa fa-trash-o"></i> 删除</button>
+                                        <button type="button" class="btn btn-default" title="上架" ng-click="updateMarketable('1')" ><i class="fa fa-check"></i> 上架</button>
+                                        <button type="button" class="btn btn-default" title="下架" ng-click="updateMarketable('2')" ><i class="fa fa-ban"></i> 下架</button>
+                                        <button type="button" class="btn btn-default" title="刷新" ><i class="fa fa-refresh"></i> 刷新</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="box-tools pull-right">
                                 <div class="has-feedback">
-                                  状态：<select>
-                                         	<option value="">全部</option>      
-                                         	<option value="0">未申请</option>    
-                                         	<option value="1">申请中</option>    
-                                         	<option value="2">审核通过</option>    
-                                         	<option value="3">已驳回</option>                                     
+                                  状态：<select  ng-model="searchEntity.isMarketable">
+                                         	<option value="">全部</option>
+                                         	<option value="0">未上架</option>
+                                         	<option value="1">上架</option>
+                                         	<option value="2">下架</option>
                                         </select>
-							                  商品名称：<input >									
+							                  商品名称：<input ng-model="searchEntity.goodsName">
 									<button class="btn btn-default" ng-click="reloadList()" >查询</button>
                                 </div>
                             </div>
@@ -93,21 +94,21 @@
 										  <td>{{category[pojo.category3Id]}}</td>
 										  <td>
 		                                  	<span>
-		                                  		{{status[pojo.auditStatus]}}
+		                                  		{{maketStatus[pojo.isMarketable]}}
 		                                  	</span>
-		                                  </td>		                                  
-		                                  <td class="text-center">                                          
-		                                 	  <button type="button" class="btn bg-olive btn-xs">修改</button>                  
+		                                  </td>
+		                                  <td class="text-center">
+		                                 	  <button type="button" class="btn bg-olive btn-xs">修改</button>
 		                                  </td>
 			                          </tr>
 			                      </tbody>
 			                  </table>
 			                  <!--数据列表/-->
-								<tm-pagination conf="paginationConf"></tm-pagination>
+							  <tm-pagination conf="paginationConf"></tm-pagination>
 							 
                         </div>
                         <!-- 数据表格 /-->
-                        
+
                         
                      </div>
                     <!-- /.box-body -->
