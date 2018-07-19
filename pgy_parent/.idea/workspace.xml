@@ -1,18 +1,403 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17a7c81c-7f84-4a90-b24d-81af186ebc1a" name="Default" comment="">
+    <list default="true" id="17a7c81c-7f84-4a90-b24d-81af186ebc1a" name="Default" comment="运营商以及商家后台操作基本以全部实现！">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_content_service_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_content_service_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_portal_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_portal_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_content_interface/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_content_interface/pyg_content_interface.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_content_interface/src/main/java/com/pinyougou/content/service/ContentCategoryService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_content_interface/src/main/java/com/pinyougou/content/service/ContentService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_content_service/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_content_service/pyg_content_service.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_content_service/src/main/java/com/pinyougou/content/service/impl/ContentCategoryServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_content_service/src/main/java/com/pinyougou/content/service/impl/ContentServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_content_service/src/main/resources/spring/applicationContext-service.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_content_service/src/main/resources/spring/applicationContext-tx.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_content_service/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/ContentCategoryController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/ContentController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbUploadGoodsImageController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/resources/config/fdfs_client.conf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/contentCategoryController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/contentController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/contentCategoryService.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/contentService.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/uploadService.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/pyg_portal.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/java/com/pinyougou/portal/controller/ContentController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/resources/config/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/resources/log4j.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/resources/spring/springmvc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-JD-index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-addressList.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-cart.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-cooperation.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-getOrderInfo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-home.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-list.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-login-manage.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-login.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-myOrder.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-pay.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-payfail.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-paysuccess.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-register.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-sampling.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-seckill-index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-seckill-item.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-seckillOrder.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-shop.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-shoplogin.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-success-cart.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-weixinpay.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/pages-zoom.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/webbase.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/widget-cartPanelView.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/css/widget-jquery.autocomplete.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-moon.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-moon.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-moon.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-moon.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-pc.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-pc.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-pc.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-pc.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-tb.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-tb.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-tb.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-tb.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-touch.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-touch.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-touch.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/fonts/icon-touch.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/57b51ea9Nb862ca5e.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/Logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/b1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/b2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/b3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/banner.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/buy001.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/buy002.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/buy01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/car.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/clock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/code.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/cooperation_banner.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/down-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/dp01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/dp02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/dp03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/dp04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/empty_heart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/erweima.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/fail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/gocart.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/gocart01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/gotop.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/icon-red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/intro01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/intro02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/intro03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/itemlike01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/itemlike02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/itemlike03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/itemlike04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/itemlike05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/itemlike06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/l-m01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/list.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/list.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/login-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/manage-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/mobile01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/mobile02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/mobile03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/mobile04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/mobile05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/mobile06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/part01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/part02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/part03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/pay5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/phone14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/photo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/photo_icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/right.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/s1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/s2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/s3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/sampling_head.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/seckillbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/shi_heart.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/shop-intro.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/shop-logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/shop-part.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/t.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/title_bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/_/y24.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/account.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/ad.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/ad1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/ali.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/itemlike/itemlike01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/itemlike/itemlike02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/itemlike/itemlike03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/itemlike/itemlike04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/itemlike/itemlike05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/itemlike/itemlike06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/fail.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/pay5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/pay/right.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/dp01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/dp02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/dp03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/dp04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/intro01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/intro02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/intro03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/l-m01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/mobile01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/mobile02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/mobile03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/mobile04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/mobile05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/mobile06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/part01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/part02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/part03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/phone/phone14.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/success-cart/buy001.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/success-cart/buy002.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/success-cart/buy01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/success-cart/gocart.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/success-cart/gocart01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/zoom/b1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/zoom/b2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/zoom/b3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/zoom/s1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/zoom/s2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/assets/img/zoom/s3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/banner1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/banner1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/banner2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/banner3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/banner4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/barrow.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand08.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand12.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand_03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand_05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand_07.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand_09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand_11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand_13.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand_15.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand_17.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand_19.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/brand_21.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/cartPanelViewIcons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/choosed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/clock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/delete.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/duihuan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/erweima.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/floor-1-1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/floor-1-2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/floor-1-3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/floor-1-4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/floor-1-5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/floor-1-6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/floor-1-b01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/floor-1-b02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/floor-1-b03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/goods.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/icon-red.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/icons.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/interest01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/interest02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/interest03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/interest04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/interest05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/interest06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/like1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/like2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/like3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/like4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/like_01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/like_02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/like_03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/like_04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/like_05.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/like_06.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/linker.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/lock.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/loginbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/mod-list.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/phone-bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/photo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/qq.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/quan.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/sina.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/today01.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/today02.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/today03.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/today04.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/weixin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/wx_cz.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/img/zoom.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/angularjs/angular-animate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/angularjs/angular-route.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/angularjs/angular-select2.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/angularjs/angular-websocket.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/angularjs/angular.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/angularjs/pagination.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/angularjs/pagination.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/base.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/base_pagination.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/controller/baseController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/controller/tbContentController.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/czFunction.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/model/cartModel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/addressList.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/city-picker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/getOrderInfo.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/home.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/jquery.slideunlock.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/login-manage.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/login.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/person-collect.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/person-footmark.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/register.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/seckill-index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/shop.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/shoplogin.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/pages/sm-city-picker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/plugins/birthday/birthday.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/plugins/citypicker/distpicker.data.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/plugins/citypicker/distpicker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/plugins/jquery-placeholder/jquery.placeholder.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/plugins/jquery.easing/jquery.easing.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/plugins/jquery.jqzoom/jquery.jqzoom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/plugins/jquery.jqzoom/zoom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/plugins/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/plugins/sui/sui.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/plugins/upload/uploadPreview.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/service/tbContentService.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/widget/cartPanelView.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/widget/jquery.autocomplete.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/widget/nav-portal-top.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/widget/nav.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/plugins/cssgrids/cssgrids-min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/plugins/jquery-placeholder/jquery.placeholder.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/plugins/jquery.easing/jquery.easing.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/plugins/jquery.jqzoom/jquery.jqzoom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/plugins/jquery.jqzoom/zoom.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/plugins/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/plugins/normalize/normalize.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/plugins/sui/sui-append.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/plugins/sui/sui.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/plugins/sui/sui.min.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pyg_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_manager_web_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbGoodsService.java" afterPath="$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbGoodsService.java" />
-      <change beforePath="$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbGoodsServiceImpl.java" afterPath="$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbGoodsServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbGoodsController.java" afterPath="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbGoodsController.java" />
-      <change beforePath="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbItemCatController.java" afterPath="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbItemCatController.java" />
-      <change beforePath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/goods.html" afterPath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/goods.html" />
-      <change beforePath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/goods_edit.html" afterPath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/goods_edit.html" />
-      <change beforePath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/tbGoodsController.js" afterPath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/tbGoodsController.js" />
-      <change beforePath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/itemCatService.js" afterPath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/itemCatService.js" />
-      <change beforePath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/tbGoodsService.js" afterPath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/tbGoodsService.js" />
-      <change beforePath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/uploadService.js" afterPath="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/uploadService.js" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/pyg_dao/pyg_dao.iml" afterPath="$PROJECT_DIR$/pyg_dao/pyg_dao.iml" />
+      <change beforePath="$PROJECT_DIR$/pyg_manager_web/pom.xml" afterPath="$PROJECT_DIR$/pyg_manager_web/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/pyg_manager_web/pyg_manager_web.iml" afterPath="$PROJECT_DIR$/pyg_manager_web/pyg_manager_web.iml" />
+      <change beforePath="$PROJECT_DIR$/pyg_manager_web/src/main/resources/config/application.properties" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/resources/config/application.properties" />
+      <change beforePath="$PROJECT_DIR$/pyg_manager_web/src/main/resources/spring/springmvc.xml" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/resources/spring/springmvc.xml" />
+      <change beforePath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/content.html" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/content.html" />
+      <change beforePath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/content_category.html" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/content_category.html" />
+      <change beforePath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/baseController.js" afterPath="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/baseController.js" />
+      <change beforePath="$PROJECT_DIR$/pyg_sellergoods_service/pyg_sellergoods_service.iml" afterPath="$PROJECT_DIR$/pyg_sellergoods_service/pyg_sellergoods_service.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,6 +412,9 @@
     <ignored path="$PROJECT_DIR$/pyg_shop_web/target/" />
     <ignored path="$PROJECT_DIR$/../generator/target/" />
     <ignored path="$PROJECT_DIR$/../zhangsfastFDS/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_content_interface/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_content_service/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_portal/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,110 +435,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="goods.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/goods.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="86" column="67" lean-forward="false" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="67" />
-              <folding>
-                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbGoodsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbGoodsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="66" column="30" lean-forward="false" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbGoodsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbGoodsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TbGoodsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbGoodsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="55" column="57" lean-forward="false" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="baseController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/baseController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tbGoodsController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/tbGoodsController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userIndexService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/userIndexService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="goods_edit.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/goods_edit.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="199" column="72" lean-forward="false" selection-start-line="199" selection-start-column="72" selection-end-line="199" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registerController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/registerController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tbGoodsService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/tbGoodsService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -160,8 +445,8 @@
         <option value="SpringMvc" />
         <option value="FxmlFile" />
         <option value="Interface" />
-        <option value="JavaScript File" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -205,32 +490,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/shoplogin_error.html" />
-        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/plugins/angularjs/angular.min.js" />
-        <option value="$PROJECT_DIR$/pyg_dao/src/main/resources/com/pinyougou/mapper/TbGoodsMapper.xml" />
-        <option value="$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbItemCatServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbItemCatService.java" />
-        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbUserController.java" />
-        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/seller_1.html" />
-        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/seller.html" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/pom.xml" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/registerController.js" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/tbSellerService.js" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbSellerController.java" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/Sf.java" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbBrandController.java" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/brandService.js" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/resources/config/application.properties" />
-        <option value="$PROJECT_DIR$/../zhangsfastFDS/src/main/resources/fdfs_client.conf" />
-        <option value="$PROJECT_DIR$/../zhangsfastFDS/pom.xml" />
-        <option value="$PROJECT_DIR$/../zhangsfastFDS/src/main/java/com/files/FileFDS.java" />
-        <option value="$PROJECT_DIR$/pyg_common/src/main/java/com/pinyougou/utils/FastDFSClient.java" />
-        <option value="$PROJECT_DIR$/pyg_common/pom.xml" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbUploadGoodsImageController.java" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbTypeTemplateController.java" />
-        <option value="$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbTypeTemplateService.java" />
-        <option value="$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbTypeTemplateServiceImpl.java" />
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/typeTemplateService.js" />
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/seller.html" />
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/userIndexController.js" />
@@ -240,7 +499,6 @@
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/userIndexService.js" />
         <option value="$PROJECT_DIR$/pyg_pojo/src/main/java/domainGroup/Goods.java" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/itemCatService.js" />
-        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/baseController.js" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/goods.html" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/goodsService.js" />
         <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/goodsController.js" />
@@ -256,6 +514,33 @@
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/goods.html" />
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/tbGoodsController.js" />
         <option value="$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/goods_edit.html" />
+        <option value="$PROJECT_DIR$/pyg_content_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_content_service/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_content_service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/pyg_content_interface/src/main/java/com/pinyougou/content/service/ContentCategoryService.java" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/ContentCategoryController.java" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/contentService.js" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/contentCategoryService.js" />
+        <option value="$PROJECT_DIR$/pyg_content_service/src/main/java/com/pinyougou/content/service/impl/ContentCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/contentCategoryController.js" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/baseController.js" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/content_category.html" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbUploadGoodsImageController.java" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/content.html" />
+        <option value="$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/contentController.js" />
+        <option value="$PROJECT_DIR$/pyg_portal/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_portal/src/main/resources/config/application.properties" />
+        <option value="$PROJECT_DIR$/pyg_portal/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pyg_portal/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/pyg_portal/src/main/java/com/pinyougou/portal/controller/ContentController.java" />
+        <option value="$PROJECT_DIR$/pyg_content_interface/src/main/java/com/pinyougou/content/service/ContentService.java" />
+        <option value="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/controller/tbContentController.js" />
+        <option value="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/service/tbContentService.js" />
+        <option value="$PROJECT_DIR$/pyg_content_service/src/main/java/com/pinyougou/content/service/impl/ContentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pyg_portal/src/main/webapp/index.html" />
       </list>
     </option>
   </component>
@@ -346,25 +631,25 @@
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_sellergoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_content_service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_sellergoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_content_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_sellergoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_content_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_sellergoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_content_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -372,7 +657,7 @@
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_sellergoods_service" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_content_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -381,52 +666,7 @@
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_content_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -434,16 +674,42 @@
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_content_service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -452,7 +718,7 @@
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_manager_web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -462,7 +728,69 @@
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_portal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="angularjs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
@@ -472,12 +800,21 @@
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_shop_web" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_portal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="pyg_portal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -489,38 +826,40 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="9.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pyg_portal" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\itheima\project\pgy_parent\pyg_shop_web\src\main\resources\config" />
-      <recent name="D:\itheima\project\pgy_parent\pyg_common\src\main\resources\config" />
-      <recent name="D:\itheima\project\pgy_parent\pyg_shop_web\src\main\webapp" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pinyougou.manager.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\itheima\project\pgy_parent\pyg_shop_web\src\main\webapp\js\controller" />
-      <recent name="D:\itheima\project\pgy_parent\pyg_manager_web\src\main\webapp\js\service" />
-      <recent name="D:\itheima\project\pgy_parent\pyg_common\src\main\resources" />
-      <recent name="D:\itheima\project\pgy_parent\pyg_common\src\main\java\com\pinyougou\utils" />
-      <recent name="D:\itheima\project\pgy_parent\pyg_shop_web\src\main\webapp\js\service" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_portal\src\main\webapp\js" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_portal\src\main\webapp" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_portal\src\main\webapp\js\controller" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_portal\src\main\webapp\WEB-INF" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_portal\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pinyougou.manager.controller" />
       <recent name="com.pinyougou.shop.controller" />
       <recent name="com.pinyougou.shop.service" />
       <recent name="com.pinyougou.sellergoods.service.impl" />
       <recent name="com.pinyougou.sellergoods.service" />
-      <recent name="com.pinyougou.manager.controller" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.pinyougou.manager.controller" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\itheima\project\pgy_parent\pyg_portal\src\main\webapp\js" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_manager_web\src\main\resources\config" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_shop_web\src\main\resources\config" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_common\src\main\resources\config" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_shop_web\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -535,7 +874,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.shop_web">
+  <component name="RunManager" selected="Maven.content_service">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -577,6 +916,29 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="content_service" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/pyg_content_service" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
     <configuration name="manager_web" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -596,6 +958,29 @@
             </option>
             <option name="resolveToWorkspace" value="false" />
             <option name="workingDirPath" value="$PROJECT_DIR$/pyg_manager_web" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration name="portal" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/pyg_portal" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
@@ -686,10 +1071,12 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Maven.sellergoods_service" />
-      <item index="1" class="java.lang.String" itemvalue="Maven.manager_web" />
-      <item index="2" class="java.lang.String" itemvalue="Maven.shop_web" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Maven.portal" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.content_service" />
+      <item index="2" class="java.lang.String" itemvalue="Maven.sellergoods_service" />
+      <item index="3" class="java.lang.String" itemvalue="Maven.manager_web" />
+      <item index="4" class="java.lang.String" itemvalue="Maven.shop_web" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -733,7 +1120,7 @@
       <workItem from="1531797530291" duration="11704000" />
       <workItem from="1531823061229" duration="1462000" />
       <workItem from="1531872054281" duration="34640000" />
-      <workItem from="1531958819466" duration="10528000" />
+      <workItem from="1531958819466" duration="26106000" />
     </task>
     <task id="LOCAL-00001" summary="前端sellerContoller提交">
       <created>1531553463177</created>
@@ -868,11 +1255,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531925906755</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="运营商以及商家后台操作基本以全部实现！">
+      <created>1531987561203</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1531987561203</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286211000" />
+    <option name="totallyTimeSpent" value="301789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -885,33 +1279,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3561321" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40212265" sideWeight="0.5037554" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21405579" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5082547" sideWeight="0.49624464" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4198113" sideWeight="0.49624464" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19366953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="91" width="480" height="848" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21888413" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="91" width="480" height="848" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Translate" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25117925" sideWeight="0.4967811" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26415095" sideWeight="0.4967811" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31957546" sideWeight="0.49785408" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -972,417 +1365,437 @@
     <MESSAGE value="查询商家资料以及保存，并且完成商家添加商品的审核。" />
     <MESSAGE value="商品添加功能全部完成！" />
     <MESSAGE value="商家商品添加 需要运营商来审核功能完成！以及页面的分类的显示" />
-    <option name="LAST_COMMIT_MESSAGE" value="商家商品添加 需要运营商来审核功能完成！以及页面的分类的显示" />
+    <MESSAGE value="运营商以及商家后台操作基本以全部实现！" />
+    <option name="LAST_COMMIT_MESSAGE" value="运营商以及商家后台操作基本以全部实现！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="84" />
+      <option name="time" value="86" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pyg_pojo/src/main/java/com/pinyougou/pojo/TbSeller.java">
+    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbGoodsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="52" column="27" lean-forward="false" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/tbSellerService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbSellerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbSpecificationServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="94" column="66" lean-forward="false" selection-start-line="94" selection-start-column="66" selection-end-line="94" selection-end-column="66" />
+        <state relative-caret-position="126">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/userIndexController.js">
+    <entry file="file://$PROJECT_DIR$/pyg_content_interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="384">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_pojo/src/main/java/com/pinyougou/pojo/TbItem.java">
+    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="37" column="28" lean-forward="false" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="122" column="19" lean-forward="false" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+        <state relative-caret-position="144">
+          <caret line="82" column="20" lean-forward="true" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/tool/maven/repository-work/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/rpc/proxy/AbstractProxyInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/net/DualStackPlainSocketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="290" column="22" lean-forward="false" selection-start-line="290" selection-start-column="22" selection-end-line="290" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbSellerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="44" column="48" lean-forward="false" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbUploadGoodsImageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbTypeTemplateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="67" column="9" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="67" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="34" column="52" lean-forward="false" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbSellerServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="124" column="51" lean-forward="false" selection-start-line="124" selection-start-column="51" selection-end-line="124" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_pojo/src/main/java/domainGroup/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="e#487#488#0" expanded="false" />
-            <element signature="e#518#519#0" expanded="false" />
-            <element signature="e#572#573#0" expanded="false" />
-            <element signature="e#612#613#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbBrandServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/brandService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tool/maven/repository-work/com/alibaba/dubbo/2.8.4/dubbo-2.8.4.jar!/com/alibaba/dubbo/rpc/proxy/javassist/JavassistProxyFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/sellerController.js">
+    <entry file="file://$PROJECT_DIR$/pyg_content_service/src/main/resources/spring/applicationContext-tx.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbItemCatService.java">
+    <entry file="file://$PROJECT_DIR$/pyg_content_interface/src/main/java/com/pinyougou/content/service/ContentCategoryService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="-720">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbItemCatServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/contentService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_content_service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/brandController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/ContentCategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding>
-            <element signature="e#968#969#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#850#851#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://E:/tool/maven/repository-work/org/springframework/spring-web/4.2.4.RELEASE/spring-web-4.2.4.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/baseController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+        <state relative-caret-position="480">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/itemCatController.js">
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/content_category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="96" column="21" lean-forward="false" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="21" />
+        <state relative-caret-position="408">
+          <caret line="17" column="4" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="22" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbSpecificationController.java">
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/contentCategoryController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="61" column="14" lean-forward="true" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+        <state relative-caret-position="312">
+          <caret line="52" column="4" lean-forward="true" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/itemCatService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="4" selection-end-column="6" />
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/seller.html">
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/contentCategoryService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="145" column="68" lean-forward="false" selection-start-line="145" selection-start-column="64" selection-end-line="145" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="353" column="72" lean-forward="false" selection-start-line="353" selection-start-column="72" selection-end-line="353" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/build/base_pagination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/goodsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="5" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="96">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/goods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="45" column="119" lean-forward="false" selection-start-line="45" selection-start-column="86" selection-end-line="45" selection-end-column="119" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/uploadService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbItemCatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbItemCatController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="43" column="42" lean-forward="true" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-          <folding>
-            <element signature="e#1210#1211#0" expanded="false" />
-            <element signature="e#1259#1260#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/goodsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbGoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="41" column="66" lean-forward="true" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/typeTemplateService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="33" column="51" lean-forward="false" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/itemCatService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/tbGoodsService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbGoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbGoodsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="66" column="30" lean-forward="false" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_pojo/src/main/java/com/pinyougou/pojo/TbGoods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="86" column="67" lean-forward="false" selection-start-line="86" selection-start-column="67" selection-end-line="86" selection-end-column="67" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbGoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="55" column="57" lean-forward="false" selection-start-line="55" selection-start-column="57" selection-end-line="55" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/registerController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/service/userIndexService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/tbGoodsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="137" column="0" lean-forward="false" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+        <state relative-caret-position="-1146">
+          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/admin/goods_edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="199" column="72" lean-forward="false" selection-start-line="199" selection-start-column="72" selection-end-line="199" selection-end-column="72" />
+        <state relative-caret-position="579">
+          <caret line="295" column="36" lean-forward="true" selection-start-line="295" selection-start-column="36" selection-end-line="295" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/webapp/js/controller/tbGoodsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="60" column="44" lean-forward="true" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/java/com/pinyougou/shop/controller/TbUploadGoodsImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/resources/spring/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-753">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="44" column="11" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="44" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/src/main/resources/config/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_shop_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="115" column="21" lean-forward="false" selection-start-line="107" selection-start-column="8" selection-end-line="115" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/service/uploadService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/resources/config/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/TbUploadGoodsImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#569#589#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/java/com/pinyougou/manager/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="139" column="92" lean-forward="true" selection-start-line="139" selection-start-column="92" selection-end-line="139" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/js/controller/contentController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_portal/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2534">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_content_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2506">
+          <caret line="111" column="12" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="111" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="140" column="12" lean-forward="false" selection-start-line="14" selection-start-column="3" selection-end-line="140" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_portal/src/main/resources/config/fdfs_client.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_portal/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_portal/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_portal/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_manager_web/src/main/webapp/admin/brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="63" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_pojo/src/main/java/com/pinyougou/pojo/TbContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_content_interface/src/main/java/com/pinyougou/content/service/ContentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_portal/src/main/webapp/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_portal/src/main/webapp/js/controller/baseController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="48" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_portal/src/main/webapp/js/angularjs/pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493869027967" expanded="true" signature="363:370" ph="«" />
+            <marker date="1493869027967" expanded="true" signature="746:753" ph="»" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_portal/src/main/webapp/js/service/tbContentService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="68" lean-forward="true" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_content_service/src/main/java/com/pinyougou/content/service/impl/ContentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="112" column="47" lean-forward="false" selection-start-line="112" selection-start-column="47" selection-end-line="112" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_portal/src/main/webapp/js/controller/tbContentController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_content_service/src/main/java/com/pinyougou/content/service/impl/ContentCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="92" column="4" lean-forward="false" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_content_service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="72" lean-forward="false" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_portal/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="541" column="42" lean-forward="false" selection-start-line="541" selection-start-column="42" selection-end-line="541" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_portal/src/main/java/com/pinyougou/portal/controller/ContentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1441,7 +1854,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>pyg_sellergoods_service</last-edited>
+          <last-edited>pyg_content_interface</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
