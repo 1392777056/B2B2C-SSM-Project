@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="17a7c81c-7f84-4a90-b24d-81af186ebc1a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pyg_portal/pyg_portal.iml" afterPath="$PROJECT_DIR$/pyg_portal/pyg_portal.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_portal/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/pyg_portal/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/pyg_portal/src/main/webapp/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -643,7 +640,7 @@
       <workItem from="1531823061229" duration="1462000" />
       <workItem from="1531872054281" duration="34640000" />
       <workItem from="1531958819466" duration="26344000" />
-      <workItem from="1532054983816" duration="3151000" />
+      <workItem from="1532054983816" duration="3251000" />
     </task>
     <task id="LOCAL-00001" summary="前端sellerContoller提交">
       <created>1531553463177</created>
@@ -792,11 +789,18 @@
       <option name="project" value="LOCAL" />
       <updated>1532011340525</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="前台页面轮播图的实现！">
+      <created>1532058175454</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1532058175454</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="305178000" />
+    <option name="totallyTimeSpent" value="305278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -897,7 +901,8 @@
     <MESSAGE value="商家商品添加 需要运营商来审核功能完成！以及页面的分类的显示" />
     <MESSAGE value="运营商以及商家后台操作基本以全部实现！" />
     <MESSAGE value="广告管理以及分类实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="广告管理以及分类实现" />
+    <MESSAGE value="前台页面轮播图的实现！" />
+    <option name="LAST_COMMIT_MESSAGE" value="前台页面轮播图的实现！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
