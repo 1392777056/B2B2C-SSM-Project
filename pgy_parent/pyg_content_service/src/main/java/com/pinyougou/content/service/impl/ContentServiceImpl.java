@@ -101,7 +101,7 @@ public class ContentServiceImpl implements ContentService {
 		Criteria criteria = example.createCriteria();
 		
 		if(content!=null){			
-						if(content.getTitle()!=null && content.getTitle().length()>0){
+			if(content.getTitle()!=null && content.getTitle().length()>0){
 				criteria.andTitleLike("%"+content.getTitle()+"%");
 			}
 			if(content.getUrl()!=null && content.getUrl().length()>0){
@@ -125,7 +125,7 @@ public class ContentServiceImpl implements ContentService {
 
 		List<TbContent> list = (List<TbContent>) redisTemplate.boundHashOps("contentList").get(categoryId);
 
-		if (list == null && list.size()==0) {
+		if (list == null || list.size()==0) {
 			System.out.println("mysql");
 			TbContentExample example=new TbContentExample();
 			example.createCriteria().andCategoryIdEqualTo(categoryId).andStatusEqualTo("1");

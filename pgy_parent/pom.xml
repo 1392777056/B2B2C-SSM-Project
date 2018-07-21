@@ -19,6 +19,10 @@
         <module>pyg_content_interface</module>
         <module>pyg_content_service</module>
         <module>pyg_portal</module>
+        <module>pyg_data_init</module>
+        <module>pyg_search_interface</module>
+        <module>pyg_search_service</module>
+        <module>pyg_search_web</module>
     </modules>
 
     <!-- 集中定义依赖版本号 -->
