@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mqp2pdemo" />
         <module name="pyg_common" />
         <module name="pyg_content_interface" />
         <module name="pyg_content_service" />
@@ -25,6 +26,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="generator" target="1.5" />
+      <module name="mqp2pdemo" target="1.5" />
       <module name="pgy_parent" target="1.8" />
       <module name="pgy_pojo" target="1.5" />
       <module name="pyg_common" target="1.8" />

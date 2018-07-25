@@ -16,6 +16,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../generator/pom.xml" />
+        <option value="$PROJECT_DIR$/../mqp2pdemo/pom.xml" />
       </list>
     </option>
   </component>

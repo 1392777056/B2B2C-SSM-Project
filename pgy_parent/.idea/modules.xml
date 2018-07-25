@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../mqp2pdemo/mqp2pdemo.iml" filepath="$PROJECT_DIR$/../mqp2pdemo/mqp2pdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/pgy_parent.iml" filepath="$PROJECT_DIR$/pgy_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_common/pyg_common.iml" filepath="$PROJECT_DIR$/pyg_common/pyg_common.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_content_interface/pyg_content_interface.iml" filepath="$PROJECT_DIR$/pyg_content_interface/pyg_content_interface.iml" />
