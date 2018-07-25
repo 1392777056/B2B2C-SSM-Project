@@ -6,6 +6,7 @@ import com.pinyougou.pojo.TbItem;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Create with www.dezhe.com
@@ -23,6 +24,16 @@ public class Goods implements Serializable {
 
     // 商品规格表
     private List<TbItem> itemList;
+
+    private Map catMap;
+
+    public Map getCatMap() {
+        return catMap;
+    }
+
+    public void setCatMap(Map catMap) {
+        this.catMap = catMap;
+    }
 
     public List<TbItem> getItemList() {
         return itemList;

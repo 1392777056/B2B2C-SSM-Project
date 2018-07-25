@@ -11,6 +11,7 @@
         <module name="pyg_content_service" />
         <module name="pyg_dao" />
         <module name="pyg_data_init" />
+        <module name="pyg_freemarker_web" />
         <module name="pyg_manager_web" />
         <module name="pyg_pojo" />
         <module name="pyg_portal" />
@@ -31,6 +32,7 @@
       <module name="pyg_content_service" target="1.8" />
       <module name="pyg_dao" target="1.8" />
       <module name="pyg_data_init" target="1.8" />
+      <module name="pyg_freemarker_web" target="1.8" />
       <module name="pyg_manager_web" target="1.8" />
       <module name="pyg_pojo" target="1.8" />
       <module name="pyg_portal" target="1.8" />

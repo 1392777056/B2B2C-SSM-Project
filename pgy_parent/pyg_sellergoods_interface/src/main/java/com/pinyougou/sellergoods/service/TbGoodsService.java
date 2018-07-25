@@ -5,6 +5,8 @@ import com.pinyougou.pojo.TbGoods;
 import domainGroup.Goods;
 import domaincommon.PageResult;
 
+import java.util.List;
+
 /**
  * Create with www.dezhe.com
  *
@@ -33,4 +35,8 @@ public interface TbGoodsService {
     void updateMarketable(Long[] selectIds, String isMarketable);
 
     void deleIsDele(Long[] selectIds, String isDeleid);
+
+    Goods findOne(Long goodsId);
+
+    List<Goods> findAllGoods();
 }

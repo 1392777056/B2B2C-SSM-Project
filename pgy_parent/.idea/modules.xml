@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/pyg_content_service/pyg_content_service.iml" filepath="$PROJECT_DIR$/pyg_content_service/pyg_content_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_dao/pyg_dao.iml" filepath="$PROJECT_DIR$/pyg_dao/pyg_dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_data_init/pyg_data_init.iml" filepath="$PROJECT_DIR$/pyg_data_init/pyg_data_init.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_freemarker_web/pyg_freemarker_web.iml" filepath="$PROJECT_DIR$/pyg_freemarker_web/pyg_freemarker_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_manager_web/pyg_manager_web.iml" filepath="$PROJECT_DIR$/pyg_manager_web/pyg_manager_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_pojo/pyg_pojo.iml" filepath="$PROJECT_DIR$/pyg_pojo/pyg_pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_portal/pyg_portal.iml" filepath="$PROJECT_DIR$/pyg_portal/pyg_portal.iml" />

@@ -23,6 +23,7 @@
         <module>pyg_search_interface</module>
         <module>pyg_search_service</module>
         <module>pyg_search_web</module>
+        <module>pyg_freemarker_web</module>
     </modules>
 
     <!-- 集中定义依赖版本号 -->

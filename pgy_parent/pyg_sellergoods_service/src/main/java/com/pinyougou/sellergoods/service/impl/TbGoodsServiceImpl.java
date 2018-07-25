@@ -12,9 +12,7 @@ import domainGroup.Goods;
 import domaincommon.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.Date;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Create with www.dezhe.com
@@ -168,6 +166,40 @@ public class TbGoodsServiceImpl implements TbGoodsService {
             tbGoods.setIsDelete(isDeleid);
             tbGoodsMapper.updateByPrimaryKey(tbGoods);
         }
+    }
+
+    @Override
+    public Goods findOne(Long goodsId) {
+        Goods goods = new Goods();
+        TbGoods tbGoods = tbGoodsMapper.selectByPrimaryKey(goodsId);
+
+        Map map = new HashMap();
+        map.put("category1",tbItemCatMapper.selectByPrimaryKey(tbGoods.getCategory1Id()).getName());
+        map.put("category2",tbItemCatMapper.selectByPrimaryKey(tbGoods.getCategory2Id()).getName());
+        map.put("category3",tbItemCatMapper.selectByPrimaryKey(tbGoods.getCategory3Id()).getName());
+        goods.setCatMap(map);
+
+        goods.setTbGoods(tbGoods);
+        TbGoodsDesc tbGoodsDesc = tbGoodsDescMapper.selectByPrimaryKey(goodsId);
+        goods.setTbGoodsDesc(tbGoodsDesc);
+
+        TbItemExample tbItemExample = new TbItemExample();
+        tbItemExample.createCriteria().andGoodsIdEqualTo(goodsId);
+        List<TbItem> items = tbItemMapper.selectByExample(tbItemExample);
+        goods.setItemList(items);
+        return goods;
+    }
+
+    @Override
+    public List<Goods> findAllGoods() {
+        List<Goods> list = new ArrayList<Goods>();
+
+        List<TbGoods> tbGoods = tbGoodsMapper.selectByExample(null);
+
+        for (TbGoods tbGood : tbGoods) {
+           list.add(findOne(tbGood.getId()));
+        }
+        return list;
     }
 
 }

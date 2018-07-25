@@ -1,27 +1,36 @@
-app.controller("searchController",function ($scope,searchService) {
-
-    $scope.paramsMap = {keywords:"苹果",category:'',brand:'',spec:{},price:'',sort:'ASC',page:1};
+app.controller("searchController",function ($scope,$location,searchService) {
 
     $scope.addDataMap = function (key,value) {
         $scope.paramsMap[key]=value;
-        $scope.searchKeywordsInit();
+        $scope.searchByParamsMaps();
     };
 
     $scope.deleDataMap = function (key) {
         $scope.paramsMap[key]='';
-        $scope.searchKeywordsInit();
+        $scope.searchByParamsMaps();
     };
     $scope.addDataMapSpec = function (key,value) {
         $scope.paramsMap.spec[key]=value;
-        $scope.searchKeywordsInit();
+        $scope.searchByParamsMaps();
     };
 
     $scope.deleDataMapSpec = function (key) {
        delete $scope.paramsMap.spec[key];
-       $scope.searchKeywordsInit();
+       $scope.searchByParamsMaps();
     };
 
     $scope.searchKeywordsInit = function () {
+       /* alert(JSON.stringify($location.search()['keywords']));*/
+        $scope.paramsMap = {keywords:$location.search()['keywords'],category:'',brand:'',spec:{},price:'',sort:'ASC',page:1};
+        $scope.searchByParamsMaps();
+    };
+    
+    $scope.searchKeywords = function () {
+        $scope.paramsMap = {keywords:$scope.paramsMap.keywords,category:'',brand:'',spec:{},price:'',sort:'ASC',page:1};
+        $scope.searchByParamsMaps();
+    };
+    
+    $scope.searchByParamsMaps = function () {
         searchService.searchKeywordsInit($scope.paramsMap).success(function (response) {
             $scope.itemParamMap = response;
             buildPageLabel();
