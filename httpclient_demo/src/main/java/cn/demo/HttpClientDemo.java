@@ -21,6 +21,8 @@ public class HttpClientDemo {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         // 2.使用Get
         HttpGet httpGet = new HttpGet("http://www.baidu.com/s?wd=php");
+        // 小知识 --- 如果使用httpPost提交的话，必须使用头 为了安全，防止恶意攻击
+        // httpPost.addHeader("User-Agent","Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36");
         // 3.访问
         CloseableHttpResponse httpResponse = httpClient.execute(httpGet);
         // 4.获取状态码
