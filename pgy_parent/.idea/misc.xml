@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/pyg_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_freemarker_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_itempage_consumer" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_manager_web" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_portal" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_search_service" />
@@ -17,6 +18,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../generator/pom.xml" />
         <option value="$PROJECT_DIR$/../mqp2pdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/httpclient_demo/pom.xml" />
       </list>
     </option>
   </component>

@@ -11,7 +11,14 @@ import com.pinyougou.sellergoods.service.TbGoodsService;
 import domainGroup.Goods;
 import domaincommon.PageResult;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
 
+import javax.jms.Destination;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
 import java.util.*;
 
 /**
@@ -40,6 +47,17 @@ public class TbGoodsServiceImpl implements TbGoodsService {
 
     @Autowired
     private TbSellerMapper tbSellerMapper;
+
+    @Autowired
+    private JmsTemplate jmsTemplate;
+
+    @Autowired
+    @Qualifier("queue_market_solr_spu")
+    private Destination queue_market_solr_spu;
+
+    @Autowired
+    @Qualifier("queue_delmarket_solr_spu")
+    private Destination queue_delmarket_solr_spu;
 
     /**
      * 添加商品
@@ -152,7 +170,30 @@ public class TbGoodsServiceImpl implements TbGoodsService {
 
     @Override
     public void updateMarketable(Long[] selectIds, String isMarketable) {
+
+        // 下架的时候删除索引库
         for (Long selectId : selectIds) {
+            // 上架的时候更新索引库
+            if ("1".equals(isMarketable)){
+                jmsTemplate.send(queue_market_solr_spu, new MessageCreator() {
+                    @Override
+                    public Message createMessage(Session session) throws JMSException {
+                        return session.createTextMessage(selectId+"");
+                    }
+                });
+                System.out.println("makee");
+            } else {
+                jmsTemplate.send(queue_delmarket_solr_spu, new MessageCreator() {
+                    @Override
+                    public Message createMessage(Session session) throws JMSException {
+                        return session.createTextMessage(selectId+"");
+                    }
+                });
+                System.out.println("xia");
+            }
+
+
+
             TbGoods tbGoods = tbGoodsMapper.selectByPrimaryKey(selectId);
             tbGoods.setIsMarketable(isMarketable);
             tbGoodsMapper.updateByPrimaryKey(tbGoods);

@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17a7c81c-7f84-4a90-b24d-81af186ebc1a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/TopicConsumer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/TopicProducer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_itempage_consumer_war.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_itempage_consumer_war_exploded.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_activemq_activemq_all_5_11_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_search_service/src/main/java/com/pinyougou/search/consumer/ComsumerDeleSorlSynchronize.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_search_service/src/main/java/com/pinyougou/search/consumer/ComsumerSorlSynchronize.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_search_service/src/main/resources/spring/applicationContext-mq.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_search_service/src/main/webapp/WEB-INF/web.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_sellergoods_service/src/main/resources/spring/applicationContext-mq.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pyg_search_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_search_service_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pyg_sellergoods_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_sellergoods_service_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pyg_data_init/src/main/java/com/pinyougou/dataInit/SolrManager.java" afterPath="$PROJECT_DIR$/pyg_data_init/src/main/java/com/pinyougou/dataInit/SolrManager.java" />
+      <change beforePath="$PROJECT_DIR$/pyg_search_service/pom.xml" afterPath="$PROJECT_DIR$/pyg_search_service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/pyg_search_service/pyg_search_service.iml" afterPath="$PROJECT_DIR$/pyg_search_service/pyg_search_service.iml" />
+      <change beforePath="$PROJECT_DIR$/pyg_sellergoods_service/pom.xml" afterPath="$PROJECT_DIR$/pyg_sellergoods_service/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/pyg_sellergoods_service/pyg_sellergoods_service.iml" afterPath="$PROJECT_DIR$/pyg_sellergoods_service/pyg_sellergoods_service.iml" />
+      <change beforePath="$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbGoodsServiceImpl.java" afterPath="$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbGoodsServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,6 +46,8 @@
     <ignored path="$PROJECT_DIR$/pyg_search_web/target/" />
     <ignored path="$PROJECT_DIR$/pyg_freemarker_web/target/" />
     <ignored path="$PROJECT_DIR$/../mqp2pdemo/target/" />
+    <ignored path="$PROJECT_DIR$/pyg_itempage_consumer/target/" />
+    <ignored path="$PROJECT_DIR$/httpclient_demo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,64 +68,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mqp2pdemo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="21" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/Producer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#911#1315#0" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopicProducer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/TopicProducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TopicConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/TopicConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -160,22 +123,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pyg_portal/src/main/resources/config/application.properties" />
-        <option value="$PROJECT_DIR$/pyg_portal/src/main/resources/spring/springmvc.xml" />
-        <option value="$PROJECT_DIR$/pyg_portal/src/main/java/com/pinyougou/portal/controller/ContentController.java" />
-        <option value="$PROJECT_DIR$/pyg_content_interface/src/main/java/com/pinyougou/content/service/ContentService.java" />
-        <option value="$PROJECT_DIR$/pyg_portal/src/main/webapp/js/service/tbContentService.js" />
-        <option value="$PROJECT_DIR$/pyg_portal/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pyg_common/src/main/resources/spring/applicationContext-redis.xml" />
-        <option value="$PROJECT_DIR$/pyg_common/pom.xml" />
-        <option value="$PROJECT_DIR$/pyg_content_service/src/main/java/com/pinyougou/content/service/impl/ContentServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pyg_pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/pyg_data_init/src/main/resources/spring/applicationContext-solr.xml" />
-        <option value="$PROJECT_DIR$/pyg_dao/src/main/java/com/pinyougou/mapper/TbItemMapper.java" />
         <option value="$PROJECT_DIR$/pyg_dao/src/main/resources/com/pinyougou/mapper/TbItemMapper.xml" />
         <option value="$PROJECT_DIR$/pyg_pojo/src/main/java/com/pinyougou/pojo/TbItem.java" />
         <option value="$PROJECT_DIR$/pyg_data_init/pom.xml" />
-        <option value="$PROJECT_DIR$/pyg_data_init/src/main/java/com/pinyougou/dataInit/SolrManager.java" />
         <option value="$PROJECT_DIR$/pyg_search_interface/pom.xml" />
         <option value="$PROJECT_DIR$/pyg_search_web/pom.xml" />
         <option value="$PROJECT_DIR$/pyg_search_web/src/main/resources/config/application.properties" />
@@ -183,15 +133,12 @@
         <option value="$PROJECT_DIR$/pyg_search_service/src/main/resources/spring/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/pyg_search_web/src/main/java/com/pinyougou/search/controller/SearchController.java" />
         <option value="$PROJECT_DIR$/pyg_search_interface/src/main/java/com/pinyougou/search/service/SearchService.java" />
-        <option value="$PROJECT_DIR$/pyg_search_service/pom.xml" />
         <option value="$PROJECT_DIR$/pyg_search_web/src/main/webapp/js/service/searchService.js" />
-        <option value="$PROJECT_DIR$/pyg_search_service/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pyg_search_web/src/main/webapp/js/htmlFilter.js" />
         <option value="$PROJECT_DIR$/pyg_search_web/src/main/webapp/js/base.js" />
         <option value="$PROJECT_DIR$/pyg_data_init/src/main/java/com/pinyougou/dataInit/RedisManager.java" />
         <option value="$PROJECT_DIR$/pyg_search_service/src/main/java/com/pinyougou/search/service/impl/SearchServiceImpl.java" />
         <option value="$PROJECT_DIR$/pyg_search_web/src/main/webapp/css/pages-list.css" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/pyg_freemarker_web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/pyg_freemarker_web/src/main/resources/config/application.properties" />
         <option value="$PROJECT_DIR$/pyg_freemarker_web/pom.xml" />
@@ -203,14 +150,30 @@
         <option value="$PROJECT_DIR$/pyg_search_web/src/main/webapp/search.html" />
         <option value="$PROJECT_DIR$/pyg_search_web/src/main/webapp/js/controller/searchController.js" />
         <option value="$PROJECT_DIR$/pyg_sellergoods_interface/src/main/java/com/pinyougou/sellergoods/service/TbGoodsService.java" />
-        <option value="$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbGoodsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pyg_freemarker_web/src/main/java/com/pinyougou/freemarker/controller/ItemFreemarkerController.java" />
         <option value="$PROJECT_DIR$/pyg_freemarker_web/src/main/webapp/WEB-INF/ftl/item.ftl" />
         <option value="$PROJECT_DIR$/../mqp2pdemo/pom.xml" />
         <option value="$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/Producer.java" />
         <option value="$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/Consumer.java" />
-        <option value="$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/TopicProducer.java" />
         <option value="$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/TopicConsumer.java" />
+        <option value="$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/TopicProducer.java" />
+        <option value="$PROJECT_DIR$/pyg_sellergoods_service/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_search_service/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_search_service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pyg_search_service/src/main/java/com/pinyougou/search/consumer/ComsumerSorlSynchronize.java" />
+        <option value="$PROJECT_DIR$/pyg_sellergoods_service/src/main/resources/spring/applicationContext-mq.xml" />
+        <option value="$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbGoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pyg_search_service/src/main/java/com/pinyougou/search/consumer/ComsumerDeleSorlSynchronize.java" />
+        <option value="$PROJECT_DIR$/pyg_data_init/src/main/java/com/pinyougou/dataInit/SolrManager.java" />
+        <option value="$PROJECT_DIR$/pyg_search_service/src/main/resources/spring/applicationContext-mq.xml" />
+        <option value="$PROJECT_DIR$/pyg_freemarker_web/src/main/java/com/pinyougou/freemarker/controller/ItemFreemarkerController.java" />
+        <option value="$PROJECT_DIR$/pyg_itempage_consumer/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/pyg_itempage_consumer/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pyg_itempage_consumer/src/main/java/com/pinyougou/page/consumer/ComsumerDelePageS.java" />
+        <option value="$PROJECT_DIR$/pyg_itempage_consumer/src/main/resources/spring/applicationContext-mq.xml" />
+        <option value="$PROJECT_DIR$/pyg_itempage_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/pyg_itempage_consumer/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/pyg_itempage_consumer/src/main/java/com/pinyougou/page/consumer/ComsumerPageS.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -280,46 +243,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqp2pdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqp2pdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqp2pdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqp2pdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mqp2pdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,33 +268,33 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="9.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pyg_freemarker_web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pyg_search_service/src/main/webapp/WEB-INF" />
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.pinyougou.manager.controller" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\itheima\project\pgy_parent\pyg_freemarker_web\src\main\webapp\WEB-INF\ftl" />
-      <recent name="D:\itheima\project\pgy_parent\pyg_freemarker_web\src\main\resources" />
-      <recent name="D:\itheima\project\pgy_parent\pyg_search_web\src\main\webapp\js" />
-      <recent name="D:\itheima\project\pgy_parent\pyg_search_service\src\main\resources\spring" />
-      <recent name="D:\itheima\project\pgy_parent\pyg_search_web\src\main\webapp\js\controller" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.activcemq.demo" />
-      <recent name="com.pinyougou.manager.controller" />
-      <recent name="com.pinyougou.shop.controller" />
-      <recent name="com.pinyougou.shop.service" />
-      <recent name="com.pinyougou.sellergoods.service.impl" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\itheima\project\pgy_parent\pyg_portal\src\main\webapp\js" />
       <recent name="D:\itheima\project\pgy_parent\pyg_manager_web\src\main\resources\config" />
       <recent name="D:\itheima\project\pgy_parent\pyg_shop_web\src\main\resources\config" />
       <recent name="D:\itheima\project\pgy_parent\pyg_common\src\main\resources\config" />
       <recent name="D:\itheima\project\pgy_parent\pyg_shop_web\src\main\webapp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\itheima\project\pgy_parent\pyg_itempage_consumer\src\main\webapp\WEB-INF" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_itempage_consumer\src\main\resources" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_search_service\src\main\webapp\WEB-INF" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_search_service\src\main\resources\spring" />
+      <recent name="D:\itheima\project\pgy_parent\pyg_sellergoods_service\src\main\resources\spring" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pinyougou.page.consumer" />
+      <recent name="com.pinyougou.search.consumer" />
+      <recent name="cn.activcemq.demo" />
+      <recent name="com.pinyougou.manager.controller" />
+      <recent name="com.pinyougou.shop.controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pinyougou.manager.controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,7 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TopicProducer">
+  <component name="RunManager" selected="Maven.search_service">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -470,7 +407,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="RedisManager.InitRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolrManager.getdeleSolr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.pinyougou.dataInit.*" />
@@ -481,8 +418,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.pinyougou.dataInit" />
-      <option name="MAIN_CLASS_NAME" value="com.pinyougou.dataInit.RedisManager" />
-      <option name="METHOD_NAME" value="InitRedis" />
+      <option name="MAIN_CLASS_NAME" value="com.pinyougou.dataInit.SolrManager" />
+      <option name="METHOD_NAME" value="getdeleSolr" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -748,19 +685,19 @@
       <item index="5" class="java.lang.String" itemvalue="Maven.freemarker_web" />
       <item index="6" class="java.lang.String" itemvalue="Maven.manager_web" />
       <item index="7" class="java.lang.String" itemvalue="Maven.shop_web" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.RedisManager.InitRedis" />
-      <item index="9" class="java.lang.String" itemvalue="Application.Producer" />
-      <item index="10" class="java.lang.String" itemvalue="Application.Consumer" />
-      <item index="11" class="java.lang.String" itemvalue="Application.TopicConsumer" />
-      <item index="12" class="java.lang.String" itemvalue="Application.TopicProducer" />
+      <item index="8" class="java.lang.String" itemvalue="Application.Producer" />
+      <item index="9" class="java.lang.String" itemvalue="Application.Consumer" />
+      <item index="10" class="java.lang.String" itemvalue="Application.TopicConsumer" />
+      <item index="11" class="java.lang.String" itemvalue="Application.TopicProducer" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.SolrManager.getdeleSolr" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TopicProducer" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TopicConsumer" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Producer" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Consumer" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RedisManager.InitRedis" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SolrManager.getdeleSolr" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TopicProducer" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TopicConsumer" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Producer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Consumer" />
       </list>
     </recent_temporary>
   </component>
@@ -813,7 +750,11 @@
       <workItem from="1532182683133" duration="2519000" />
       <workItem from="1532217734894" duration="18714000" />
       <workItem from="1532398535166" duration="19578000" />
-      <workItem from="1532477483582" duration="18389000" />
+      <workItem from="1532477483582" duration="18425000" />
+      <workItem from="1532572141206" duration="8546000" />
+      <workItem from="1532584207058" duration="658000" />
+      <workItem from="1532587594937" duration="2444000" />
+      <workItem from="1532650358041" duration="8330000" />
     </task>
     <task id="LOCAL-00001" summary="前端sellerContoller提交">
       <created>1531553463177</created>
@@ -1011,13 +952,17 @@
       <option name="project" value="LOCAL" />
       <updated>1532530223894</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="JMS的Topic练习。">
+      <created>1532531498725</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1532531498725</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RedisManager_InitRedis - 2018.07.24 at 22h 28m 03s.xml">
-      <configuration name="RedisManager.InitRedis" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SolrManager_getUpdateSolr - 2018.07.21 at 20h 09m 15s.xml">
       <configuration name="SolrManager.getUpdateSolr" configurationId="JUnit" />
     </history-entry>
@@ -1036,6 +981,9 @@
     <history-entry file="SolrManager_getdeleSolr - 2018.07.22 at 15h 08m 20s.xml">
       <configuration name="SolrManager.getdeleSolr" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SolrManager_getdeleSolr - 2018.07.26 at 15h 25m 32s.xml">
+      <configuration name="SolrManager.getdeleSolr" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="SolrManager_getfindSolr - 2018.07.21 at 20h 18m 00s.xml">
       <configuration name="SolrManager.getfindSolr" configurationId="JUnit" />
     </history-entry>
@@ -1047,7 +995,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="384283000" />
+    <option name="totallyTimeSpent" value="404297000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1068,19 +1016,19 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3561321" sideWeight="0.50482833" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21405579" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37382075" sideWeight="0.49624464" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38089624" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4634434" sideWeight="0.49624464" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="91" width="480" height="848" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2585837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="91" width="480" height="848" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Translate" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3879717" sideWeight="0.4967811" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5424528" sideWeight="0.4967811" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1103,17 +1051,17 @@
       <window_info id="Translate" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3879717" sideWeight="0.4967811" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5424528" sideWeight="0.4967811" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3561321" sideWeight="0.49517167" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37382075" sideWeight="0.49624464" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38089624" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4634434" sideWeight="0.49624464" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2446352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="91" width="480" height="848" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2585837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="91" width="480" height="848" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1122,11 +1070,20 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="查看审核页面数据第一次提交" />
     <MESSAGE value="审核的内容第一次提交" />
     <MESSAGE value="商家入驻的状态值改变" />
     <MESSAGE value="商家入驻的状态值第二次改变" />
@@ -1151,181 +1108,23 @@
     <MESSAGE value="完成页面全文检索技术(二)-----搜索页面全部完成" />
     <MESSAGE value="完成商品详情页和三级联调以及Nginx代理。" />
     <MESSAGE value="ActiveMQ入门实现，JMS的PTP练习。" />
-    <option name="LAST_COMMIT_MESSAGE" value="ActiveMQ入门实现，JMS的PTP练习。" />
+    <MESSAGE value="JMS的Topic练习。" />
+    <option name="LAST_COMMIT_MESSAGE" value="JMS的Topic练习。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="115" />
+      <option name="time" value="116" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pyg_search_service/src/main/resources/spring/applicationContext-solr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_data_init/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tool/maven/repository-work/org/springframework/data/spring-data-solr/1.5.5.RELEASE/spring-data-solr-1.5.5.RELEASE.jar!/org/springframework/data/solr/core/query/HighlightQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_search_service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_search_web/src/main/webapp/js/controller/baseController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_search_web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_search_web/src/main/webapp/js/service/searchService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbBrandServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="65" column="41" lean-forward="true" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_search_service/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_search_web/src/main/webapp/js/htmlFilter.js" />
-    <entry file="file://$PROJECT_DIR$/pyg_search_web/src/main/webapp/js/base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="3" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tool/maven/repository-work/org/springframework/data/spring-data-solr/1.5.5.RELEASE/spring-data-solr-1.5.5.RELEASE.jar!/org/springframework/data/solr/core/SolrTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="250" column="57" lean-forward="false" selection-start-line="250" selection-start-column="52" selection-end-line="250" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_data_init/src/main/java/com/pinyougou/dataInit/SolrManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/tool/maven/repository-work/org/springframework/data/spring-data-solr/1.5.5.RELEASE/spring-data-solr-1.5.5.RELEASE.jar!/org/springframework/data/solr/core/query/FilterQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_search_web/src/main/webapp/js/angularjs/angular.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="194" column="281" lean-forward="false" selection-start-line="194" selection-start-column="281" selection-end-line="194" selection-end-column="281" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_search_service/src/main/java/com/pinyougou/search/service/impl/SearchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_search_web/src/main/webapp/css/pages-list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="227" column="16" lean-forward="false" selection-start-line="227" selection-start-column="16" selection-end-line="227" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="43" lean-forward="true" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_manager_web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="119" column="37" lean-forward="false" selection-start-line="119" selection-start-column="37" selection-end-line="119" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_portal/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_freemarker_web/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyg_pojo/src/main/java/com/pinyougou/pojo/TbGoods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_freemarker_web/src/main/resources/spring/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="32" column="43" lean-forward="false" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1341,7 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2256">
           <caret line="98" column="21" lean-forward="false" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1349,7 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="111" column="39" lean-forward="false" selection-start-line="111" selection-start-column="39" selection-end-line="111" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1364,7 +1161,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1872">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,7 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-696">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1380,7 +1175,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
           <caret line="218" column="61" lean-forward="false" selection-start-line="218" selection-start-column="61" selection-end-line="218" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1388,7 +1182,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,7 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,7 +1196,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1412,7 +1203,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="26" column="60" lean-forward="false" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1420,9 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="74" lean-forward="true" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1430,7 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1438,7 +1224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="83" column="114" lean-forward="false" selection-start-line="83" selection-start-column="100" selection-end-line="83" selection-end-column="114" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1446,7 +1231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1454,7 +1238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1462,27 +1245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="826">
           <caret line="56" column="74" lean-forward="false" selection-start-line="56" selection-start-column="74" selection-end-line="56" selection-end-column="74" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbGoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="191" column="0" lean-forward="false" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-          <folding>
-            <element signature="e#6700#6707#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyg_freemarker_web/src/main/java/com/pinyougou/freemarker/controller/ItemFreemarkerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1490,7 +1252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1498,7 +1259,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2304">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1506,7 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1514,7 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="72" column="44" lean-forward="true" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1522,44 +1280,227 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="21" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="912">
           <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#911#1315#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/TopicConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="35" column="40" lean-forward="true" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="792">
+          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mqp2pdemo/src/main/java/cn/activcemq/demo/TopicProducer.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_search_service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_search_service/src/main/resources/spring/applicationContext-solr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_search_service/src/main/java/com/pinyougou/search/service/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2976">
+          <caret line="138" column="54" lean-forward="true" selection-start-line="138" selection-start-column="54" selection-end-line="138" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_data_init/src/main/java/com/pinyougou/dataInit/SolrManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="77" column="82" lean-forward="true" selection-start-line="77" selection-start-column="82" selection-end-line="77" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_search_service/src/main/java/com/pinyougou/search/consumer/ComsumerDeleSorlSynchronize.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <caret line="38" column="45" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/resources/spring/applicationContext-mq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="25" column="70" lean-forward="true" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_search_service/src/main/resources/spring/applicationContext-mq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="42" column="11" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="42" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_sellergoods_service/src/main/java/com/pinyougou/sellergoods/service/impl/TbGoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="180" column="65" lean-forward="false" selection-start-line="180" selection-start-column="57" selection-end-line="180" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_itempage_consumer/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_search_service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_search_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_itempage_consumer/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_itempage_consumer/src/main/java/com/pinyougou/page/consumer/ComsumerDelePageS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_search_service/src/main/java/com/pinyougou/search/consumer/ComsumerSorlSynchronize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="35" column="42" lean-forward="false" selection-start-line="35" selection-start-column="42" selection-end-line="35" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_itempage_consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="105" column="21" lean-forward="true" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_freemarker_web/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="40" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_itempage_consumer/src/main/webapp/WEB-INF/ftl/foot.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_freemarker_web/src/main/java/com/pinyougou/freemarker/controller/ItemFreemarkerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_itempage_consumer/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_itempage_consumer/src/main/java/com/pinyougou/page/consumer/ComsumerPageS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyg_itempage_consumer/src/main/resources/spring/applicationContext-mq.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="33" column="79" lean-forward="false" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/httpclient_demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1583,7 +1524,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web (pyg_freemarker_web)|Web</last-edited>
+          <last-edited>Web (pyg_search_service)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -74,8 +74,10 @@ public class SolrManager {
         // 根据id去删除
         /*solrTemplate.deleteById("1");*/
         // 根据对象去删除所有
-        SolrDataQuery solrDataQuery = new SimpleQuery("*:*");
-        solrTemplate.delete(solrDataQuery);
+        /*SolrDataQuery solrDataQuery = new SimpleQuery("*:*");*/
+        SimpleQuery simpleQuery = new SimpleQuery("item_goodsid:149187842867980");
+        solrTemplate.delete(simpleQuery);
+        /*solrTemplate.delete(solrDataQuery);*/
         solrTemplate.commit();
     }
 
