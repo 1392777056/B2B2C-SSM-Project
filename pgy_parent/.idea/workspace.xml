@@ -2,419 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17a7c81c-7f84-4a90-b24d-81af186ebc1a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../httpclient_demo/src/main/java/cn/demo/DemoHttpClinetSms.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../httpclient_demo/src/main/java/cn/demo/HttpClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_itempage_consumer_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_itempage_consumer_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_sms_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_sms_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_user_service_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_user_service_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_user_web_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_user_web_war_exploded.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_3_2_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_dysmsapi_1_0_0_SNAPSHOT.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_common/src/main/java/com/pinyougou/utils/HttpClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_sms/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_sms/pyg_sms.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_sms/src/main/java/com/pinyougou/sms/SendSmsController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_sms/src/main/resources/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_sms/src/main/resources/spring/springmvc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_sms/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_interface/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_interface/pyg_user_interface.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_interface/src/main/java/com/pinyougou/user/service/TbUserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_service/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_service/pyg_user_service.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_service/src/main/resources/spring/applicationContext-service.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_service/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/pyg_user_web.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/java/com/pinyougou/user/controller/TbUserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/resources/config/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/resources/log4j.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/resources/spring/springmvc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-JD-index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-addressList.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-cart.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-cooperation.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-getOrderInfo.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-home.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-item.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-list.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-login-manage.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-login.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-myOrder.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-pay.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-payfail.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-paysuccess.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-register.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-sampling.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-seckill-index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-seckill-item.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-seckillOrder.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-shop.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-shoplogin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-success-cart.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-weixinpay.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/pages-zoom.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/webbase.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/widget-cartPanelView.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/css/widget-jquery.autocomplete.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-moon.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-moon.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-moon.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-moon.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-pc.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-pc.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-pc.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-pc.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-tb.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-tb.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-tb.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-tb.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-touch.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-touch.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-touch.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/fonts/icon-touch.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/57b51ea9Nb862ca5e.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/Logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/b1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/b2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/b3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/banner.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/buy001.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/buy002.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/buy01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/car.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/clock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/code.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/cooperation_banner.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/down-icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/dp01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/dp02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/dp03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/dp04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/empty_heart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/erweima.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/fail.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/gocart.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/gocart01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/gotop.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/icon-red.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/intro01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/intro02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/intro03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/itemlike01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/itemlike02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/itemlike03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/itemlike04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/itemlike05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/itemlike06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/l-m01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/list.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/list.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/login-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/manage-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/mobile01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/mobile02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/mobile03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/mobile04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/mobile05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/mobile06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/part01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/part02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/part03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/pay5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone08.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/phone14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/photo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/photo_icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/s1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/s2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/s3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/sampling_head.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/seckillbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/shi_heart.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/shop-intro.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/shop-logo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/shop-part.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/t.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/title_bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/_/y24.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/account.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/ad.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/ad1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/ali.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/itemlike/itemlike01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/itemlike/itemlike02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/itemlike/itemlike03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/itemlike/itemlike04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/itemlike/itemlike05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/itemlike/itemlike06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/fail.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay10.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay11.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay12.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay13.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay14.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay15.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay16.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay17.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay18.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay19.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay20.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay21.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay22.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/pay5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/pay/right.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/dp01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/dp02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/dp03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/dp04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/intro01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/intro02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/intro03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/l-m01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/mobile01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/mobile02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/mobile03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/mobile04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/mobile05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/mobile06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/part01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/part02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/part03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone08.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/phone/phone14.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/success-cart/buy001.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/success-cart/buy002.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/success-cart/buy01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/success-cart/gocart.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/success-cart/gocart01.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/zoom/b1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/zoom/b2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/zoom/b3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/zoom/s1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/zoom/s2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/assets/img/zoom/s3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/banner1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/banner1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/banner2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/banner3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/banner4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/barrow.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand08.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand10.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand12.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand_03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand_05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand_07.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand_09.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand_11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand_13.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand_15.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand_17.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand_19.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/brand_21.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/cartPanelViewIcons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/choosed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/clock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/delete.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/duihuan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/erweima.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/floor-1-1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/floor-1-2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/floor-1-3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/floor-1-4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/floor-1-5.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/floor-1-6.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/floor-1-b01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/floor-1-b02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/floor-1-b03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/goods.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/icon-red.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/icons.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/interest01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/interest02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/interest03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/interest04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/interest05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/interest06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/like1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/like2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/like3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/like4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/like_01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/like_02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/like_03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/like_04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/like_05.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/like_06.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/linker.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/lock.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/loginbg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/mod-list.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/phone-bg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/photo.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/qq.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/quan.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/sina.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/today01.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/today02.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/today03.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/today04.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/weixin.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/wx_cz.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/img/zoom.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/angularjs/angular-animate.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/angularjs/angular-route.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/angularjs/angular-select2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/angularjs/angular-websocket.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/angularjs/angular.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/angularjs/pagination.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/angularjs/pagination.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/base.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/controller/tbUserController.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/czFunction.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/model/cartModel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/addressList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/city-picker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/getOrderInfo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/home.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/jquery.slideunlock.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/login-manage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/person-collect.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/person-footmark.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/register.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/seckill-index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/shop.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/shoplogin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/pages/sm-city-picker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/plugins/birthday/birthday.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/plugins/citypicker/distpicker.data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/plugins/citypicker/distpicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/plugins/jquery-placeholder/jquery.placeholder.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/plugins/jquery.easing/jquery.easing.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/plugins/jquery.jqzoom/jquery.jqzoom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/plugins/jquery.jqzoom/zoom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/plugins/jquery/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/plugins/sui/sui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/plugins/upload/uploadPreview.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/service/tbUserService.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/widget/cartPanelView.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/widget/jquery.autocomplete.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/widget/nav-portal-top.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/js/widget/nav.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/plugins/cssgrids/cssgrids-min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/plugins/jquery-placeholder/jquery.placeholder.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/plugins/jquery.easing/jquery.easing.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/plugins/jquery.jqzoom/jquery.jqzoom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/plugins/jquery.jqzoom/zoom.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/plugins/jquery/jquery.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/plugins/normalize/normalize.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/plugins/sui/sui-append.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/plugins/sui/sui.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/plugins/sui/sui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_web/src/main/webapp/register.html" />
-      <change beforePath="$PROJECT_DIR$/../httpclient_demo/httpclient_demo.iml" afterPath="$PROJECT_DIR$/../httpclient_demo/httpclient_demo.iml" />
-      <change beforePath="$PROJECT_DIR$/../httpclient_demo/pom.xml" afterPath="$PROJECT_DIR$/../httpclient_demo/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pyg_content_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_content_service_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pyg_freemarker_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_freemarker_web_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pyg_manager_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_manager_web_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pyg_portal_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_portal_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pyg_search_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_search_web_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pyg_sellergoods_service_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_sellergoods_service_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/pyg_shop_web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/pyg_shop_web_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_sms/src/main/resources/config/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pyg_user_service/src/main/java/com/pinyougou/user/service/impl/TbUserServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/pyg_common/pom.xml" afterPath="$PROJECT_DIR$/pyg_common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/pyg_common/pyg_common.iml" afterPath="$PROJECT_DIR$/pyg_common/pyg_common.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_content_interface/pyg_content_interface.iml" afterPath="$PROJECT_DIR$/pyg_content_interface/pyg_content_interface.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_content_service/pyg_content_service.iml" afterPath="$PROJECT_DIR$/pyg_content_service/pyg_content_service.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_dao/pyg_dao.iml" afterPath="$PROJECT_DIR$/pyg_dao/pyg_dao.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_freemarker_web/pyg_freemarker_web.iml" afterPath="$PROJECT_DIR$/pyg_freemarker_web/pyg_freemarker_web.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_manager_web/pyg_manager_web.iml" afterPath="$PROJECT_DIR$/pyg_manager_web/pyg_manager_web.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_pojo/pyg_pojo.iml" afterPath="$PROJECT_DIR$/pyg_pojo/pyg_pojo.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_portal/pyg_portal.iml" afterPath="$PROJECT_DIR$/pyg_portal/pyg_portal.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_search_interface/pyg_search_interface.iml" afterPath="$PROJECT_DIR$/pyg_search_interface/pyg_search_interface.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_search_web/pyg_search_web.iml" afterPath="$PROJECT_DIR$/pyg_search_web/pyg_search_web.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_sellergoods_interface/pyg_sellergoods_interface.iml" afterPath="$PROJECT_DIR$/pyg_sellergoods_interface/pyg_sellergoods_interface.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_sellergoods_service/pyg_sellergoods_service.iml" afterPath="$PROJECT_DIR$/pyg_sellergoods_service/pyg_sellergoods_service.iml" />
-      <change beforePath="$PROJECT_DIR$/pyg_shop_web/pyg_shop_web.iml" afterPath="$PROJECT_DIR$/pyg_shop_web/pyg_shop_web.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -656,36 +246,6 @@
           <expand>
             <path>
               <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="httpclient_demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="httpclient_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="httpclient_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="httpclient_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="httpclient_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -722,41 +282,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pgy_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pgy_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="pyg_user_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1336,7 +861,7 @@
       <workItem from="1532650358041" duration="13343000" />
       <workItem from="1532683930294" duration="32000" />
       <workItem from="1532690152080" duration="12682000" />
-      <workItem from="1532737541931" duration="9193000" />
+      <workItem from="1532737541931" duration="9564000" />
     </task>
     <task id="LOCAL-00001" summary="前端sellerContoller提交">
       <created>1531553463177</created>
@@ -1562,7 +1087,14 @@
       <option name="project" value="LOCAL" />
       <updated>1532680211077</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="前台用户注册，使用阿里云短信服务。">
+      <created>1532763720722</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1532763720722</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1598,7 +1130,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431217000" />
+    <option name="totallyTimeSpent" value="431588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1617,13 +1149,13 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3561321" sideWeight="0.50482833" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19903433" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19903433" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38089624" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3431604" sideWeight="0.49624464" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20386267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="91" width="480" height="848" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20386267" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="91" width="480" height="848" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2013,7 +1545,7 @@
         <state relative-caret-position="151">
           <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2039,8 +1571,8 @@
         <state relative-caret-position="528">
           <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
           <folding>
-            <element signature="e#1272#1288#1" expanded="true" />
-            <element signature="e#1354#1374#1" expanded="true" />
+            <element signature="e#1272#1288#1" expanded="false" />
+            <element signature="e#1354#1374#1" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2050,7 +1582,7 @@
         <state relative-caret-position="339">
           <caret line="33" column="54" lean-forward="true" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
