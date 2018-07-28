@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../casdemo" />
+    <file type="web" url="file://$PROJECT_DIR$/../casdemo2" />
+    <file type="web" url="file://$PROJECT_DIR$/casdemo2" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_freemarker_web" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_itempage_consumer" />
@@ -23,6 +26,9 @@
         <option value="$PROJECT_DIR$/../mqp2pdemo/pom.xml" />
         <option value="$PROJECT_DIR$/httpclient_demo/pom.xml" />
         <option value="$PROJECT_DIR$/../httpclient_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../casdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/casdemo2/pom.xml" />
+        <option value="$PROJECT_DIR$/../casdemo2/pom.xml" />
       </list>
     </option>
   </component>

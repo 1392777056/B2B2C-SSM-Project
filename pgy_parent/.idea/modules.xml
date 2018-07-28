@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../casdemo/casdemo.iml" filepath="$PROJECT_DIR$/../casdemo/casdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../casdemo2/casdemo2.iml" filepath="$PROJECT_DIR$/../casdemo2/casdemo2.iml" />
       <module fileurl="file://$PROJECT_DIR$/../httpclient_demo/httpclient_demo.iml" filepath="$PROJECT_DIR$/../httpclient_demo/httpclient_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mqp2pdemo/mqp2pdemo.iml" filepath="$PROJECT_DIR$/../mqp2pdemo/mqp2pdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/pgy_parent.iml" filepath="$PROJECT_DIR$/pgy_parent.iml" />

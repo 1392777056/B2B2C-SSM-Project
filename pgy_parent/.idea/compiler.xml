@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="casdemo" />
+        <module name="casdemo2" />
         <module name="httpclient_demo" />
         <module name="mqp2pdemo" />
         <module name="pyg_common" />
@@ -30,6 +32,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="casdemo" target="1.7" />
+      <module name="casdemo2" target="1.7" />
       <module name="generator" target="1.5" />
       <module name="httpclient_demo" target="1.5" />
       <module name="mqp2pdemo" target="1.5" />
