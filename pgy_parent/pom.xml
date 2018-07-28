@@ -24,6 +24,10 @@
         <module>pyg_search_service</module>
         <module>pyg_search_web</module>
         <module>pyg_freemarker_web</module>
+        <module>pyg_sms</module>
+        <module>pyg_user_web</module>
+        <module>pyg_user_service</module>
+        <module>pyg_user_interface</module>
     </modules>
 
     <!-- 集中定义依赖版本号 -->

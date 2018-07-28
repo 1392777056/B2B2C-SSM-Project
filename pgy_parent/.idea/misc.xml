@@ -10,6 +10,9 @@
     <file type="web" url="file://$PROJECT_DIR$/pyg_search_web" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_sellergoods_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_shop_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_sms" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_user_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_user_web" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_web" />
   </component>
   <component name="MavenProjectsManager">
@@ -19,6 +22,7 @@
         <option value="$PROJECT_DIR$/../generator/pom.xml" />
         <option value="$PROJECT_DIR$/../mqp2pdemo/pom.xml" />
         <option value="$PROJECT_DIR$/httpclient_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/../httpclient_demo/pom.xml" />
       </list>
     </option>
   </component>

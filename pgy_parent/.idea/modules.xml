@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../httpclient_demo/httpclient_demo.iml" filepath="$PROJECT_DIR$/../httpclient_demo/httpclient_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mqp2pdemo/mqp2pdemo.iml" filepath="$PROJECT_DIR$/../mqp2pdemo/mqp2pdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/pgy_parent.iml" filepath="$PROJECT_DIR$/pgy_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_common/pyg_common.iml" filepath="$PROJECT_DIR$/pyg_common/pyg_common.iml" />
@@ -19,6 +20,10 @@
       <module fileurl="file://$PROJECT_DIR$/pyg_sellergoods_interface/pyg_sellergoods_interface.iml" filepath="$PROJECT_DIR$/pyg_sellergoods_interface/pyg_sellergoods_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_sellergoods_service/pyg_sellergoods_service.iml" filepath="$PROJECT_DIR$/pyg_sellergoods_service/pyg_sellergoods_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_shop_web/pyg_shop_web.iml" filepath="$PROJECT_DIR$/pyg_shop_web/pyg_shop_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_sms/pyg_sms.iml" filepath="$PROJECT_DIR$/pyg_sms/pyg_sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_user_interface/pyg_user_interface.iml" filepath="$PROJECT_DIR$/pyg_user_interface/pyg_user_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_user_service/pyg_user_service.iml" filepath="$PROJECT_DIR$/pyg_user_service/pyg_user_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_user_web/pyg_user_web.iml" filepath="$PROJECT_DIR$/pyg_user_web/pyg_user_web.iml" />
     </modules>
   </component>
 </project>

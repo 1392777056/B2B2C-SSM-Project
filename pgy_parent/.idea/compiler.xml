@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="httpclient_demo" />
         <module name="mqp2pdemo" />
         <module name="pyg_common" />
         <module name="pyg_content_interface" />
@@ -22,10 +23,15 @@
         <module name="pyg_sellergoods_interface" />
         <module name="pyg_sellergoods_service" />
         <module name="pyg_shop_web" />
+        <module name="pyg_sms" />
+        <module name="pyg_user_interface" />
+        <module name="pyg_user_service" />
+        <module name="pyg_user_web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="generator" target="1.5" />
+      <module name="httpclient_demo" target="1.5" />
       <module name="mqp2pdemo" target="1.5" />
       <module name="pgy_parent" target="1.8" />
       <module name="pgy_pojo" target="1.5" />
@@ -35,6 +41,7 @@
       <module name="pyg_dao" target="1.8" />
       <module name="pyg_data_init" target="1.8" />
       <module name="pyg_freemarker_web" target="1.8" />
+      <module name="pyg_itempage_consumer" target="1.8" />
       <module name="pyg_manager_web" target="1.8" />
       <module name="pyg_pojo" target="1.8" />
       <module name="pyg_portal" target="1.8" />
@@ -44,6 +51,10 @@
       <module name="pyg_sellergoods_interface" target="1.8" />
       <module name="pyg_sellergoods_service" target="1.8" />
       <module name="pyg_shop_web" target="1.8" />
+      <module name="pyg_sms" target="1.8" />
+      <module name="pyg_user_interface" target="1.8" />
+      <module name="pyg_user_service" target="1.8" />
+      <module name="pyg_user_web" target="1.8" />
       <module name="pyg_web" target="1.8" />
       <module name="zhangsfastFDS" target="1.5" />
     </bytecodeTargetLevel>
