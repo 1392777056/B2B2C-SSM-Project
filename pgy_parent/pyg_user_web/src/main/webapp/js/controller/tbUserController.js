@@ -1,5 +1,11 @@
 app.controller("tbUserController",function ($scope,tbUserService) {
 
+    $scope.showUserNameInit = function () {
+      tbUserService.showUserNameInit().success(function (response) {
+          $scope.username = JSON.parse(response);
+      });
+    };
+
     $scope.userAdd = function () {
       if ($scope.entity.password != $scope.password2) {
           alert("密码不一致");

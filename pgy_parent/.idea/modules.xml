@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../casdemo/casdemo.iml" filepath="$PROJECT_DIR$/../casdemo/casdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../casdemo2/casdemo2.iml" filepath="$PROJECT_DIR$/../casdemo2/casdemo2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../httpclient_demo/httpclient_demo.iml" filepath="$PROJECT_DIR$/../httpclient_demo/httpclient_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../casdemo3/casdemo3.iml" filepath="$PROJECT_DIR$/../casdemo3/casdemo3.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mqp2pdemo/mqp2pdemo.iml" filepath="$PROJECT_DIR$/../mqp2pdemo/mqp2pdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/pgy_parent.iml" filepath="$PROJECT_DIR$/pgy_parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_common/pyg_common.iml" filepath="$PROJECT_DIR$/pyg_common/pyg_common.iml" />
@@ -26,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/pyg_user_interface/pyg_user_interface.iml" filepath="$PROJECT_DIR$/pyg_user_interface/pyg_user_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_user_service/pyg_user_service.iml" filepath="$PROJECT_DIR$/pyg_user_service/pyg_user_service.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_user_web/pyg_user_web.iml" filepath="$PROJECT_DIR$/pyg_user_web/pyg_user_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../quartz_demo/quartz_demo.iml" filepath="$PROJECT_DIR$/../quartz_demo/quartz_demo.iml" />
     </modules>
   </component>
 </project>

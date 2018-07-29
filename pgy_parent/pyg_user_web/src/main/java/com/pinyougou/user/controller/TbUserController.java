@@ -4,6 +4,8 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.pinyougou.pojo.TbUser;
 import com.pinyougou.user.service.TbUserService;
 import domaincommon.Result;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -21,6 +23,11 @@ public class TbUserController {
 
     @Reference
     private TbUserService tbUserService;
+
+    @RequestMapping("/showUserName")
+    public String getUserName() {
+        return SecurityContextHolder.getContext().getAuthentication().getName();
+    }
 
     @RequestMapping("/getCode/{phone}")
     public Result getCode(@PathVariable("phone") String phone) {

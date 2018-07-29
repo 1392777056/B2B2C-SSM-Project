@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../casdemo" />
     <file type="web" url="file://$PROJECT_DIR$/../casdemo2" />
+    <file type="web" url="file://$PROJECT_DIR$/../casdemo3" />
     <file type="web" url="file://$PROJECT_DIR$/casdemo2" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_freemarker_web" />
@@ -25,10 +26,11 @@
         <option value="$PROJECT_DIR$/../generator/pom.xml" />
         <option value="$PROJECT_DIR$/../mqp2pdemo/pom.xml" />
         <option value="$PROJECT_DIR$/httpclient_demo/pom.xml" />
-        <option value="$PROJECT_DIR$/../httpclient_demo/pom.xml" />
         <option value="$PROJECT_DIR$/../casdemo/pom.xml" />
         <option value="$PROJECT_DIR$/casdemo2/pom.xml" />
         <option value="$PROJECT_DIR$/../casdemo2/pom.xml" />
+        <option value="$PROJECT_DIR$/../casdemo3/pom.xml" />
+        <option value="$PROJECT_DIR$/../quartz_demo/pom.xml" />
       </list>
     </option>
   </component>

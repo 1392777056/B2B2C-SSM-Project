@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="casdemo" />
         <module name="casdemo2" />
-        <module name="httpclient_demo" />
+        <module name="casdemo3" />
         <module name="mqp2pdemo" />
         <module name="pyg_common" />
         <module name="pyg_content_interface" />
@@ -29,11 +29,13 @@
         <module name="pyg_user_interface" />
         <module name="pyg_user_service" />
         <module name="pyg_user_web" />
+        <module name="quartz_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="casdemo" target="1.7" />
       <module name="casdemo2" target="1.7" />
+      <module name="casdemo3" target="1.7" />
       <module name="generator" target="1.5" />
       <module name="httpclient_demo" target="1.5" />
       <module name="mqp2pdemo" target="1.5" />
@@ -60,6 +62,7 @@
       <module name="pyg_user_service" target="1.8" />
       <module name="pyg_user_web" target="1.8" />
       <module name="pyg_web" target="1.8" />
+      <module name="quartz_demo" target="1.5" />
       <module name="zhangsfastFDS" target="1.5" />
     </bytecodeTargetLevel>
   </component>
