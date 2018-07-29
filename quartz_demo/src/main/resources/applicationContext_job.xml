@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="
+		http://www.springframework.org/schema/beans
+		http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- 定义一个任务类 -->
+	<bean id="myJob" class="com.demo.JobDemo">
+	</bean>
+	<!-- 任务类描述 -->
+	<bean id="jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="myJob"></property>
+		<property name="targetMethod" value="showTime"></property>
+	</bean>
+	<!-- 触发器  -->
+	<bean id="mailTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="jobDetail"></property>
+		<property name="cronExpression" value="0/3 * * * * ? *"></property>
+	</bean>
+	<!-- 总管理容器 -->
+	<bean id="startQuartz" class="org.springframework.scheduling.quartz.SchedulerFactoryBean" >
+		<property name="triggers">
+			<list>
+				<ref bean="mailTrigger"/>
+			</list>
+		</property>
+	</bean>
+
+</beans>
+
