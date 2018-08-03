@@ -5,10 +5,14 @@
     <file type="web" url="file://$PROJECT_DIR$/../casdemo2" />
     <file type="web" url="file://$PROJECT_DIR$/../casdemo3" />
     <file type="web" url="file://$PROJECT_DIR$/casdemo2" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_cart_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_cart_web" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_content_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_freemarker_web" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_itempage_consumer" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_manager_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_order_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_order_web" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_portal" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_search_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_search_web" />

@@ -23,5 +23,7 @@
    
    <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">  
      <property name="connectionFactory" ref="JedisConnectionFactory" />  
-   </bean>  
+   </bean>
+
+    <bean id="IdWorker" class="com.pinyougou.utils.IdWorker"></bean>
 </beans>

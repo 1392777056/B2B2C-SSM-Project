@@ -10,6 +10,9 @@
         <module name="casdemo2" />
         <module name="casdemo3" />
         <module name="mqp2pdemo" />
+        <module name="pyg_cart_interface" />
+        <module name="pyg_cart_service" />
+        <module name="pyg_cart_web" />
         <module name="pyg_common" />
         <module name="pyg_content_interface" />
         <module name="pyg_content_service" />
@@ -17,6 +20,8 @@
         <module name="pyg_data_init" />
         <module name="pyg_freemarker_web" />
         <module name="pyg_manager_web" />
+        <module name="pyg_order_interface" />
+        <module name="pyg_order_service" />
         <module name="pyg_pojo" />
         <module name="pyg_portal" />
         <module name="pyg_search_interface" />
@@ -41,6 +46,9 @@
       <module name="mqp2pdemo" target="1.5" />
       <module name="pgy_parent" target="1.8" />
       <module name="pgy_pojo" target="1.5" />
+      <module name="pyg_cart_interface" target="1.8" />
+      <module name="pyg_cart_service" target="1.8" />
+      <module name="pyg_cart_web" target="1.8" />
       <module name="pyg_common" target="1.8" />
       <module name="pyg_content_interface" target="1.8" />
       <module name="pyg_content_service" target="1.8" />
@@ -49,6 +57,9 @@
       <module name="pyg_freemarker_web" target="1.8" />
       <module name="pyg_itempage_consumer" target="1.8" />
       <module name="pyg_manager_web" target="1.8" />
+      <module name="pyg_order_interface" target="1.8" />
+      <module name="pyg_order_service" target="1.8" />
+      <module name="pyg_order_web" target="1.8" />
       <module name="pyg_pojo" target="1.8" />
       <module name="pyg_portal" target="1.8" />
       <module name="pyg_search_interface" target="1.8" />

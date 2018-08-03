@@ -5,11 +5,15 @@
     <file url="file://$PROJECT_DIR$/../casdemo2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../casdemo3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_cart_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_cart_web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pyg_common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pyg_content_service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pyg_dao" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pyg_freemarker_web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pyg_manager_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_order_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pyg_order_web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pyg_pojo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pyg_portal" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/pyg_search_service" charset="UTF-8" />

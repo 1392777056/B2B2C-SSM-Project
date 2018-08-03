@@ -18,6 +18,8 @@
 	<script type="text/javascript" src="./js/controller/itemController.js"></script>
 
 	<script type="text/javascript">
+
+		var id = ${item.id?c}
 		var spec = ${item.spec};
 		var itemList = [
 		    <#list goods.itemList as item>
@@ -151,7 +153,7 @@
 							<div class="fl">
 								<ul class="btn-choose unstyled">
 									<li>
-										<a href="cart.html" target="_blank" class="sui-btn  btn-danger addshopcar">加入购物车</a>
+										<button ng-click="addGoodsToCartList()" target="_blank" class="sui-btn  btn-danger addshopcar">加入购物车</button>
 									</li>
 								</ul>
 							</div>
