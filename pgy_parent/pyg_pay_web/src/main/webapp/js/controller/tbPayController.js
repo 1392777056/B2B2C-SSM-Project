@@ -21,7 +21,7 @@ app.controller("payController",function ($scope,payService) {
 
         payService.findPayInfo(out_trade_no).success(function (response) {
             if (response.success) {
-                location.href = "paysuccess.html";
+                location.href = "paysuccess.html#?totalFee="+;
             } else {
                 if (response.message == "支付超时") {
                     $scope.unifiedorder();
@@ -29,6 +29,11 @@ app.controller("payController",function ($scope,payService) {
 
             }
         })
+    }
+    
+    $scope.showMon = function () {
+       $scope.totalFee =   location.search()['totalFee'];
+        
     }
 
 });

@@ -5,8 +5,10 @@ import java.util.List;
 
 import com.alibaba.fastjson.JSON;
 import com.pinyougou.mapper.TbOrderItemMapper;
+import com.pinyougou.mapper.TbPayLogMapper;
 import com.pinyougou.order.service.OrderService;
 import com.pinyougou.pojo.TbOrderItem;
+import com.pinyougou.pojo.TbPayLog;
 import com.pinyougou.utils.IdWorker;
 import domainGroup.Carts;
 import domaincommon.PageResult;
@@ -33,6 +35,9 @@ public class OrderServiceImpl implements OrderService {
 	private TbOrderMapper orderMapper;
 	@Autowired
 	private TbOrderItemMapper orderItemMapper;
+
+	@Autowired
+	private TbPayLogMapper payLogMapper;
 
 	@Autowired
 	private RedisTemplate redisTemplate;
@@ -66,6 +71,9 @@ public class OrderServiceImpl implements OrderService {
 		String cartListStr = (String) redisTemplate.boundValueOps(order.getUserId()).get();
 
 		List<Carts> cartsList = JSON.parseArray(cartListStr, Carts.class);
+
+		String orderList = "";
+		Double totalMoney = 0.00;
 		for (Carts carts : cartsList) {
 			TbOrder tbOrder = new TbOrder();
 			//  订单id
@@ -76,6 +84,7 @@ public class OrderServiceImpl implements OrderService {
 			tbOrder.setReceiverMobile(order.getReceiverMobile());
 			tbOrder.setReceiver(order.getReceiver());
 			tbOrder.setUserId(order.getUserId());
+			orderList += orderId+",";
 			Double payment = 0.00;
 			List<TbOrderItem> tbOrderItemList = carts.getTbOrderItemList();
 			for (TbOrderItem orderItem : tbOrderItemList) {
@@ -84,6 +93,7 @@ public class OrderServiceImpl implements OrderService {
 				orderItem.setId(idWorker.nextId());
 				orderItemMapper.insert(orderItem);
 			}
+			totalMoney +=payment;
 			tbOrder.setPayment(new BigDecimal(payment));
 			tbOrder.setStatus("1");
 			tbOrder.setCreateTime(new Date());
@@ -91,6 +101,19 @@ public class OrderServiceImpl implements OrderService {
 			tbOrder.setSellerId(carts.getSellerId());
 			orderMapper.insert(tbOrder);
 		}
+
+		TbPayLog tbPayLog = new TbPayLog();
+		tbPayLog.setCreateTime(new Date());
+		tbPayLog.setOrderList(orderList.substring(0,orderList.length()-1));
+		tbPayLog.setOutTradeNo(idWorker.nextId()+"");
+		tbPayLog.setPayType(order.getPaymentType());
+		tbPayLog.setTotalFee(totalMoney.longValue()*100); // 单位：分
+		tbPayLog.setTradeState("0");  // 未支付
+		tbPayLog.setUserId(order.getUserId());
+		payLogMapper.insert(tbPayLog);
+
+		redisTemplate.boundHashOps("payLog").put(order.getUserId(),tbPayLog);
+
 		// 清空购物车
 		redisTemplate.delete(order.getUserId());
 	}

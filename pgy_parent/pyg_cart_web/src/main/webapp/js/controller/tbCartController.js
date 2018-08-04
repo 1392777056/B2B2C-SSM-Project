@@ -10,7 +10,7 @@ app.controller("tbCartController",function ($scope,tbAddressService,tbCartServic
 
         tbOrderService.save($scope.entity).success(function (response) {
             if (response.success) {
-                alert("跳转到付款页面");
+                location.href = "http://pay.pinyougou.com/pay.html";
             } else {
                 alert(response.message);
             }

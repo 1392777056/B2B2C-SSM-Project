@@ -3,6 +3,7 @@ package com.pinyougou.pay.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.pinyougou.pay.service.PayService;
 import domaincommon.Result;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,21 +25,27 @@ public class PayController {
 
     @RequestMapping("/unifiedorder")
     public Map getUnifiedorder() {
-
-        return payService.unifiedorder();
+        String name = SecurityContextHolder.getContext().getAuthentication().getName();
+        return payService.unifiedorder(name);
     }
 
     @RequestMapping("/findPayInfos/{out_trade_no}")
     public Result findPayInfos(@PathVariable("out_trade_no") String out_trade_no) {
 
-
         int time = 0;
         try {
             while (time<=10) {
+
                 Map<String,String> map = payService.findPayInfos(out_trade_no);
                 if (map.get("trade_state").equals("NOTPAY")) {
                 }
                 if (map.get("trade_state").equals("SUCCESS")) {
+                    // 支付成功后 还需要去修改它的订单的状态和支付的时间。
+                    String name = SecurityContextHolder.getContext().getAuthentication().getName();
+                    String transaction_id = map.get("transaction_id");
+                    payService.updateOrderPayStatus(out_trade_no,name,transaction_id);
+
+
                     return new Result(true,"支付成功");
                 }
                 try {

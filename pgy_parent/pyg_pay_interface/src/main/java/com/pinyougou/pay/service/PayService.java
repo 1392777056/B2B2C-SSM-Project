@@ -10,7 +10,9 @@ import java.util.Map;
  */
 public interface PayService {
 
-    Map unifiedorder();
+    Map unifiedorder(String name);
 
     Map findPayInfos(String out_trade_no);
+
+    void updateOrderPayStatus(String out_trade_no, String name, String transaction_id);
 }

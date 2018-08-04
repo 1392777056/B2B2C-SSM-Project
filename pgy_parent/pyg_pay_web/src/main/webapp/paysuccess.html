@@ -9,11 +9,17 @@
 		<link rel="icon" href="/assets/img/favicon.ico">
 		
 	
-    <link rel="stylesheet" type="text/css" href="css/webbase.css" />
-    <link rel="stylesheet" type="text/css" href="css/pages-paysuccess.css" />
+    	<link rel="stylesheet" type="text/css" href="css/webbase.css" />
+    	<link rel="stylesheet" type="text/css" href="css/pages-paysuccess.css" />
+
+		<script type="text/javascript" src="./js/angularjs/angular.min.js"></script>
+
+		<script type="text/javascript" src="./js/base.js"></script>
+		<script type="text/javascript" src="./js/service/tbPatService.js"></script>
+		<script type="text/javascript" src="./js/controller/tbPayController.js"></script>
 </head>
 
-	<body>
+	<body ng-app="pinyougou" ng-controller="payController" ng-init="showMon()">
 		<!--head-->
 		<div class="top">
 			<div class="py-container">
@@ -51,7 +57,7 @@
 					<h3><img src="img/_/right.png" width="48" height="48">　恭喜您，支付成功啦！</h3>
 					<div class="paydetail">
 					<p>支付方式：微信支付</p>
-					<p>支付金额：￥1006.00元</p>
+					<p>支付金额：￥{{(totalFee/100).toFixed(2)}}元</p>
 					<p class="button"><a href="myOrder.html" class="sui-btn btn-xlarge btn-danger">查看订单</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html" class="sui-btn btn-xlarge ">继续购物</a></p>
 				    </div>
 				</div>
