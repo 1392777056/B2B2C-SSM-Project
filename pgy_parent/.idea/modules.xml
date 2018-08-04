@@ -19,6 +19,9 @@
       <module fileurl="file://$PROJECT_DIR$/pyg_manager_web/pyg_manager_web.iml" filepath="$PROJECT_DIR$/pyg_manager_web/pyg_manager_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_order_interface/pyg_order_interface.iml" filepath="$PROJECT_DIR$/pyg_order_interface/pyg_order_interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_order_service/pyg_order_service.iml" filepath="$PROJECT_DIR$/pyg_order_service/pyg_order_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_pay_interface/pyg_pay_interface.iml" filepath="$PROJECT_DIR$/pyg_pay_interface/pyg_pay_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_pay_service/pyg_pay_service.iml" filepath="$PROJECT_DIR$/pyg_pay_service/pyg_pay_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg_pay_web/pyg_pay_web.iml" filepath="$PROJECT_DIR$/pyg_pay_web/pyg_pay_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_pojo/pyg_pojo.iml" filepath="$PROJECT_DIR$/pyg_pojo/pyg_pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_portal/pyg_portal.iml" filepath="$PROJECT_DIR$/pyg_portal/pyg_portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/pyg_search_interface/pyg_search_interface.iml" filepath="$PROJECT_DIR$/pyg_search_interface/pyg_search_interface.iml" />

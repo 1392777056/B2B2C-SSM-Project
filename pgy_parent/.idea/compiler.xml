@@ -22,6 +22,9 @@
         <module name="pyg_manager_web" />
         <module name="pyg_order_interface" />
         <module name="pyg_order_service" />
+        <module name="pyg_pay_interface" />
+        <module name="pyg_pay_service" />
+        <module name="pyg_pay_web" />
         <module name="pyg_pojo" />
         <module name="pyg_portal" />
         <module name="pyg_search_interface" />
@@ -60,6 +63,9 @@
       <module name="pyg_order_interface" target="1.8" />
       <module name="pyg_order_service" target="1.8" />
       <module name="pyg_order_web" target="1.8" />
+      <module name="pyg_pay_interface" target="1.8" />
+      <module name="pyg_pay_service" target="1.8" />
+      <module name="pyg_pay_web" target="1.8" />
       <module name="pyg_pojo" target="1.8" />
       <module name="pyg_portal" target="1.8" />
       <module name="pyg_search_interface" target="1.8" />

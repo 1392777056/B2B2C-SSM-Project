@@ -33,6 +33,9 @@
         <module>pyg_cart_interface</module>
         <module>pyg_order_service</module>
         <module>pyg_order_interface</module>
+        <module>pyg_pay_web</module>
+        <module>pyg_pay_service</module>
+        <module>pyg_pay_interface</module>
     </modules>
 
     <!-- 集中定义依赖版本号 -->

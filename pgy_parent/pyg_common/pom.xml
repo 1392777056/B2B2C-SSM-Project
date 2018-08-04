@@ -12,6 +12,8 @@
     <artifactId>pyg_common</artifactId>
 
     <dependencies>
+
+
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>

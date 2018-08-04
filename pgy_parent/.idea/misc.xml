@@ -13,6 +13,8 @@
     <file type="web" url="file://$PROJECT_DIR$/pyg_manager_web" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_order_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_order_web" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_pay_service" />
+    <file type="web" url="file://$PROJECT_DIR$/pyg_pay_web" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_portal" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_search_service" />
     <file type="web" url="file://$PROJECT_DIR$/pyg_search_web" />
