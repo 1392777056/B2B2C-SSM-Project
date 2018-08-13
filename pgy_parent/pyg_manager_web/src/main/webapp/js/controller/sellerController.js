@@ -12,7 +12,7 @@ app.controller("sellerController",function ($scope,$controller,sellerService) {
     };
 
     /* 搜索框 */
-    $scope.sreach = function (pageNum,pageSize) {
+    $scope.search = function (pageNum,pageSize) {
         sellerService.sreachSeller(pageNum,pageSize,$scope.searchEntity).success(function (response) {
             $scope.list = response.rows;
             $scope.paginationConf.totalItems = response.total;
@@ -35,5 +35,13 @@ app.controller("sellerController",function ($scope,$controller,sellerService) {
                 alert(response.message);
             }
         });
+    }
+    
+    $scope.exportXls = function () {
+        window.open("../seller/exportXls");
+    }
+
+    $scope.importXls = function () {
+        window.open("../seller/importXls");
     }
 });

@@ -5,11 +5,18 @@ import com.pinyougou.pojo.TbSeller;
 import com.pinyougou.sellergoods.service.TbSellerService;
 import domaincommon.PageResult;
 import domaincommon.Result;
+import org.apache.poi.hssf.usermodel.*;
+import org.apache.poi.ss.usermodel.Row;
+import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.FileInputStream;
 import java.util.List;
 
 /**
@@ -32,6 +39,68 @@ public class TbSellerController {
     @RequestMapping("/findAll")
     public List<TbSeller> findAll(){
         return tbSellerService.findAll();
+    }
+
+
+    // 导出exportXls 表
+    @RequestMapping("/exportXls")
+    public void getExportXls(HttpServletRequest request, HttpServletResponse response) throws Exception {
+
+        // 1.首先去获取模板
+        String templatePath = request.getSession().getServletContext().getRealPath("") + "/template/seller.xls";
+
+        // 2.获取一个工作薄
+        HSSFWorkbook workbook = new HSSFWorkbook(new FileInputStream(templatePath));
+
+        // 3.获取需要导入的数据
+        List<TbSeller> sellersAll = tbSellerService.findAll();
+
+        // 4.获取已有的工作表
+        HSSFSheet sheet = workbook.getSheetAt(0);
+
+        // 自己设置样式
+        //HSSFCellStyle cellStyle = workbook.getSheetAt(0).getRow(0).getCell(0).getCellStyle();
+
+        int rowIndex = 3;
+        for (TbSeller tbSeller : sellersAll) {
+
+            HSSFRow row = sheet.createRow(rowIndex);
+            HSSFCell SellerIdCell = row.createCell(0);
+            SellerIdCell.setCellValue(tbSeller.getSellerId());
+          //  SellerIdCell.setCellStyle(cellStyle);   在存放里面
+
+            HSSFCell NameCell = row.createCell(1);
+            NameCell.setCellValue(tbSeller.getName());
+
+            HSSFCell NickNameCell = row.createCell(2);
+            NickNameCell.setCellValue(tbSeller.getNickName());
+
+            HSSFCell LinkmanNameCell = row.createCell(3);
+            LinkmanNameCell.setCellValue(tbSeller.getLinkmanName());
+
+            HSSFCell TelephoneCell = row.createCell(4);
+            TelephoneCell.setCellValue(tbSeller.getTelephone());
+
+            HSSFCell StatusCell = row.createCell(5);
+            StatusCell.setCellValue(tbSeller.getStatus());
+
+            rowIndex++;
+        }
+
+        // 在浏览器下载
+        ServletOutputStream outputStream = response.getOutputStream();
+
+        // 一个流  两个头  1. 文件打开方式 in - line    attachment  2. 文件的mime类型（常见类型的可以省略）
+        response.setHeader("Content-Disposition","attachment; filename=seller.xls");
+
+
+        workbook.write(outputStream);
+
+    }
+
+    @RequestMapping("/importXls")
+    public void getimportXls(HttpServletRequest request, HttpServletResponse response) throws Exception {
+        
     }
 
     /**

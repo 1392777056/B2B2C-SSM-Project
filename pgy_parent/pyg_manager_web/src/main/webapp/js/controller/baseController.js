@@ -9,6 +9,7 @@ app.controller("baseController",function ($scope) {
             $scope.reloadList();//重新加载
         }
     };
+
     $scope.searchEntity = {};
     /* 查询分页集的数据，总条数以及当前对象 */
     $scope.reloadList = function () {
