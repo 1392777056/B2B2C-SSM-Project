@@ -12,11 +12,14 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.List;
 
 /**
@@ -39,6 +42,18 @@ public class TbSellerController {
     @RequestMapping("/findAll")
     public List<TbSeller> findAll(){
         return tbSellerService.findAll();
+    }
+
+    @RequestMapping("/uploadFile")
+    public Result getUploadFile(MultipartFile file) throws IOException {
+
+        InputStream inputStream = file.getInputStream();
+
+        HSSFWorkbook hssfWorkbook = new HSSFWorkbook(inputStream);
+
+
+        return null;
+
     }
 
 

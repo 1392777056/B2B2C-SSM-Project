@@ -41,7 +41,9 @@ app.controller("sellerController",function ($scope,$controller,sellerService) {
         window.open("../seller/exportXls");
     }
 
-    $scope.importXls = function () {
-        window.open("../seller/importXls");
+    $scope.savePoiFile = function () {
+        sellerService.savePoiFile().success(function (response) {
+            alert(response);
+        });
     }
 });

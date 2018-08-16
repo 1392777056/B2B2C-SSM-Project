@@ -17,7 +17,6 @@ app.controller('contentController' ,function($scope,$controller,uploadService,co
         uploadService.uploadGoodImage().success(function (response) {
             if (response.success){
                 $scope.entity.pic=response.message;
-           
             }else {
                 alert(response.message);
             }

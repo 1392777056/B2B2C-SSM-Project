@@ -38,14 +38,19 @@
                         <!-- 数据表格 -->
                         <div class="table-box">
 
+							<!--工具栏-->
+							<div class="pull-left">
+								<div class="form-group form-inline">
+									<div class="btn-group">
+										<button type="button" class="btn btn-default" title="新建" data-toggle="modal" data-target="#editModal" ><i class="fa fa-file-o"></i>导入</button>
+									</div>
+								</div>
+							</div>
                             <!--工具栏-->
-                            
+
                             <div class="box-tools pull-right">
 
                                 <div class="has-feedback">
-									<!--ng-click="importXls()"-->
-								<!--	<button type="button" id="uploadExcel"><i>&nbsp;上传Excel</i></button>-->
-									<button ng-click="exportXls()">Excel导出</button>
 							        公司名称：<input ng-model="searchEntity.name" >
 									店铺名称： <input ng-model="searchEntity.nickName" >
 									状态：
@@ -245,41 +250,24 @@
 	  </div>
 	</div>
 </div>
-
+	<!-- 编辑窗口 -->
+	<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog" >
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+					<h3 id="myModalLabel">品牌编辑</h3>
+				</div>
+				<div class="modal-body">
+					<input type="file" id="file">
+				</div>
+				<div class="modal-footer">
+					<button class="btn btn-success" data-dismiss="modal" ng-click="savePoiFile()" aria-hidden="true">保存</button>
+					<button class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</button>
+				</div>
+			</div>
+		</div>
+	</div>
 
 </body>
-<!--<script type="text/javascript">
-    $("#uploadExcel").upload({
-        name: 'myFile',//上传组件的name属性，即<input type='file' name='file'/>
-        action: "../seller/importXls",//向服务器请求的路径
-        enctype: 'multipart/form-data',//mime类型，默认即可
-        params: {},//请求时额外传递的参数，默认为空
-        autoSubmit: true,//是否自动提交，即当选择了文件，自动关闭了选择窗口后，是否自动提交请求。
-        onSubmit: function() {},//提交表单之前触发事件
-        onComplete: function(data) {
-            if(data == "0"){
-                $("#myModal").modal(); //提示框，Excel导入成功
-            }else{
-                $("#myModal2").modal(); //提示框，Excel导入成失败
-            }
-		},//提交表单完成后触发的事件
-        onSelect: function() {
-
-            //当选择了文件后，关闭自动提交
-            this.autoSubmit=false;
-            //校验上传的文件名是否满足后缀为.xls或.xlsx
-            var regex =/^.*\.(?:xls|xlsx)$/i;
-            //this.filename()返回当前选择的文件名称 (ps：我使用这个方法没好使，自己写了一个获取文件的名的方法) $("[name = '"+this.name()+"']").val())
-            //alert(this.filename());
-            if(regex.test($("[name = '"+this.name()+"']").val())){
-                //通过校验
-                this.submit();
-            }else{
-                //未通过
-                $("#myModal3").modal(); //错误提示框，文件格式不正确，必须以.xls或.xlsx结尾
-            }
-
-		}//当用户选择了一个文件后触发事件
-    });
-</script>-->
 </html>
